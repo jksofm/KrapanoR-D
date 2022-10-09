@@ -1,0 +1,2092 @@
+
+<krpano>
+
+	<include url="plugins_l/plugin_a/photo.xml"/>
+	<include url="plugins_l/plugin_a/youtube.xml"/>
+	<include url="plugins_l/plugin_a/video.xml"/>
+	<include url="plugins_l/plugin_a/poligon.xml"/>
+
+	<addhs_settings  pin_cod="" 
+ 					 sound_close_click="true" 
+ 					 video_close_click="true" 
+ 					 youtube_close_click="true" 
+					 FIRSTXML="tour" 
+					 path="%FIRSTXML%/" 
+					 action_list="'add_hotspot/plugins_l/actionSM.html'" 
+					 photo="true" 
+					 video="true" 
+					 youtube="true" 
+ 		   		/>
+	
+
+  <hotspot  name="hotspot_1" style="text_hs_sm" type="text" keep="true" distorted="true" capture="false" handcursor="false" zorder="6"
+ 			ath="-152.4156" atv="31.4295" width="250" height="46" rx="-11.84" ry="3.32" rotate="-14.7" edge="lefttop"
+ 			css="font-family:Arial; font-size:16px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_1" scene_EL="scene_1!toancanhbuoisang" drag_hs="true" fov_EL="120" enabled2="true" visible2="true"
+ 			html="Đường Cao Tốc [br] TP.HCM - Long Thành - Dầu Giây"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_2" style="text_hs_sm" type="text" keep="true" distorted="true" capture="false" handcursor="false" zorder="6"
+ 			ath="-92.6923" atv="12.6912" width="157" height="28" rotate="-1.74" edge="lefttop"
+ 			css="font-family:Arial; font-size:16px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_2" scene_EL="scene_1!toancanhbuoisang" drag_hs="true" fov_EL="127.87" enabled2="true" visible2="true"
+ 			html="Đường Võ Chí Công"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_3" style="text_hs_sm" type="text" keep="true" distorted="true" capture="false" handcursor="false" zorder="6"
+ 			ath="-75.3939" atv="23.1168" width="224" height="28" ry="25.48" rotate="69.42" edge="lefttop"
+ 			css="font-family:Arial; font-size:14px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0xFFFAFF" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.8" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_3" scene_EL="scene_1!toancanhbuoisang" drag_hs="true" fov_EL="127.87" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_4" style="text_hs_sm" type="text" keep="true" distorted="true" capture="false" handcursor="false" zorder="6"
+ 			ath="-23.2484" atv="24.1834" width="224" height="28" ry="14.3" rotate="24.3" scale="0.711" edge="lefttop"
+ 			css="font-family:Arial; font-size:14px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.8" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_4" scene_EL="scene_1!toancanhbuoisang" drag_hs="true" fov_EL="127.87" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_5" style="text_hs_sm" type="text" keep="true" distorted="true" capture="false" handcursor="false" zorder="6"
+ 			ath="-27.7592" atv="52.0526" width="224" height="28" rotate="-39.24" edge="lefttop"
+ 			css="font-family:Arial; font-size:14px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.8" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_5" scene_EL="scene_1!toancanhbuoisang" drag_hs="true" fov_EL="127.87" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_6" style="text_hs_sm" type="text" keep="true" distorted="true" capture="false" handcursor="false" zorder="6"
+ 			ath="112.3501" atv="10.8352" width="190" height="38" rx="-29.54" ry="7.98" rotate="38.76" scale="0.761" edge="lefttop"
+ 			css="font-family:Arial; font-size:12px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_6" scene_EL="scene_1!toancanhbuoisang" drag_hs="true" fov_EL="120" enabled2="true" visible2="true"
+ 			html="Đường Cao Tốc [br] TP.HCM - Long Thành - Dầu Giây"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_7" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="-74.1109" atv="7.0278" width="160" height="32" rx="-15.74" ry="27.72" rz="-38.96" rotate="54.36" edge="lefttop"
+ 			css="font-family:Arial; font-size:10px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0xFFFFFF" bgalpha="1"
+ 			bgborder="1 0x485D51 1" bgroundedge="5 5 5 5" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_7" scene_EL="scene_2!toancanhbuoitoi" drag_hs="true" fov_EL="127.87" enabled2="true" visible2="true"
+ 			html="Đường Cao Tốc [br] TP.HCM - Long Thành - Dầu Giây"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_8" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="82.0636" atv="16.0678" width="158" height="28" rx="-12.6" ry="68.4" rz="46.4" rotate="2.58" edge="lefttop"
+ 			css="font-family:Arial; font-size:15px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_8" scene_EL="scene_2!toancanhbuoitoi" drag_hs="true" fov_EL="140" enabled2="true" visible2="true"
+ 			html="Đường Liên Phường"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_9" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="53.1156" atv="12.1628" width="157" height="28" rz="-0.75" edge="lefttop"
+ 			css="font-family:Arial; font-size:16px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_9" scene_EL="scene_2!toancanhbuoitoi" drag_hs="true" fov_EL="140" enabled2="true" visible2="true"
+ 			html="Đường Võ Chí Công"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_10" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="162.657" atv="20.9858" width="190" height="38" rx="-3.3" ry="15.6" rz="11.85" scale="0.939" edge="lefttop"
+ 			css="font-family:Arial; font-size:12px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_10" scene_EL="scene_13!topdown" drag_hs="true" fov_EL="111.23" enabled2="true" visible2="true"
+ 			html="Đường Cao Tốc [br] TP.HCM - Long Thành - Dầu Giây"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_11" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="-132.1252" atv="19.1307" width="160" height="32" rx="-24.6" ry="-21.9" rz="-25.3" scale="0.935" edge="lefttop"
+ 			css="font-family:Arial; font-size:10px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_11" scene_EL="scene_13!topdown" drag_hs="true" fov_EL="111.23" enabled2="true" visible2="true"
+ 			html="Đường Cao Tốc [br] TP.HCM - Long Thành - Dầu Giây"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_12" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="-103.6208" atv="22.628" width="157" height="28" rx="0.9" ry="4.8" rz="5.4" edge="lefttop"
+ 			css="font-family:Arial; font-size:16px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_12" scene_EL="scene_13!topdown" drag_hs="true" fov_EL="111.23" enabled2="true" visible2="true"
+ 			html="Đường Võ Chí Công"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_13" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="-29.5732" atv="18.9618" width="121" height="24" rx="-1.8" ry="19.5" rz="11.55" edge="lefttop"
+ 			css="font-family:Arial; font-size:11px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_13" scene_EL="scene_13!topdown" drag_hs="true" fov_EL="111.23" enabled2="true" visible2="true"
+ 			html="Đường Liên Phường"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_14" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="62.0572" atv="76.1448" width="197" height="26" rz="-40.75" edge="lefttop"
+ 			css="font-family:Arial; font-size:13px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.8" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_14" scene_EL="scene_13!topdown" drag_hs="true" fov_EL="111.23" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_15" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="113.606" atv="56.495" width="197" height="26" rx="-18.6" ry="2.1" rz="-5.35" edge="lefttop"
+ 			css="font-family:Arial; font-size:13px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.8" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_15" scene_EL="scene_13!topdown" drag_hs="true" fov_EL="111.23" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_16" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="-177.8888" atv="49.0178" width="197" height="26" rx="-21.6" ry="5.1" rz="7.8" edge="lefttop"
+ 			css="font-family:Arial; font-size:13px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.8" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_16" scene_EL="scene_13!topdown" drag_hs="true" fov_EL="111.23" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_17" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="-52.4365" atv="32.6784" width="224" height="28" rz="13.7" edge="lefttop"
+ 			css="font-family:Arial; font-size:14px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.8" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_17" scene_EL="scene_2!toancanhbuoitoi" drag_hs="true" fov_EL="127.87" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_18" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="-30.7834" atv="15.5447" width="224" height="28" rx="-24" ry="-0.6" rz="-1.85" edge="lefttop"
+ 			css="font-family:Arial; font-size:14px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.8" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_18" scene_EL="scene_2!toancanhbuoitoi" drag_hs="true" fov_EL="127.87" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_19" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="116.6094" atv="25.1431" width="158" height="28" rx="-17.4" ry="10.2" rz="11.75" edge="lefttop"
+ 			css="font-family:Arial; font-size:15px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_19" scene_EL="scene_2!toancanhbuoitoi" drag_hs="true" fov_EL="127.87" enabled2="true" visible2="true"
+ 			html="Đường Liên Phường"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_20" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/nhon-hoi-icon.png" enabled="false" visible="false" zorder="5"
+ 			ath="24.21" atv="66.18" width="100" height="prop" scale="0.3" edge="center"
+ 			install_onclick="5" title="hotspot_20" scene_EL="scene_13!topdown" fov_EL="101.76" enabled2="true" visible2="true" drag_hs="false"
+ 			onclick="openphotosm(%FIRSTXML%/photo/thumb/cam8.jpg,,80);"
+ 			onhover="showtext([img src=photo/thumb/cam8.jpg width=200px][/img],VRW_STYLE);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_21" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/nhon-hoi-icon.png" enabled="false" visible="false" zorder="5"
+ 			ath="30.14" atv="75.43" width="100" height="prop" scale="0.3" edge="center"
+ 			install_onclick="5" title="hotspot_21" scene_EL="scene_13!topdown" fov_EL="101.76" enabled2="true" visible2="true" drag_hs="false"
+ 			onclick="openphotosm(%FIRSTXML%/photo/thumb/cam10.jpg,,80);"
+ 			onhover="showtext([img src=photo/thumb/cam10.jpg width=200px][/img],VRW_STYLE);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_22" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" capture="false" handcursor="false" zorder="6"
+ 			ath="147.548" atv="8.6688" width="224" height="28" rx="1.8" ry="-24.3" rz="-2.5" edge="lefttop"
+ 			css="font-family:Arial; font-size:16px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_22" scene_EL="scene_4!khuonvien" drag_hs="true" fov_EL="124" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+  <hotspot  name="hotspot_23" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/nhon-hoi-icon.png" enabled="false" visible="false" zorder="5"
+ 			ath="108.14" atv="88.19" width="100" height="prop" scale="0.3" edge="center"
+ 			install_onclick="5" title="hotspot_23" scene_EL="scene_13!topdown" fov_EL="101.76" enabled2="true" visible2="true" drag_hs="false"
+ 			onclick="openphotosm(%FIRSTXML%/photo/thumb/cam13.jpg,,80);"
+ 			onhover="showtext([img src=photo/thumb/cam13.jpg width=200px][/img],VRW_STYLE);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_24" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/nhon-hoi-icon.png" enabled="false" visible="false" zorder="5"
+ 			ath="7.25" atv="66.58" width="100" height="prop" scale="0.3" edge="center"
+ 			install_onclick="5" title="hotspot_24" scene_EL="scene_13!topdown" fov_EL="101.76" enabled2="true" visible2="true" drag_hs="false"
+ 			onclick="openphotosm(%FIRSTXML%/photo/thumb/cam5.jpg,,80);"
+ 			onhover="showtext([img src=photo/thumb/cam5.jpg width=200px][/img],VRW_STYLE);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_25" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/nhon-hoi-icon.png" enabled="false" visible="false" zorder="5"
+ 			ath="-118.09" atv="51" width="100" height="prop" scale="0.3" edge="center"
+ 			install_onclick="5" title="hotspot_25" scene_EL="scene_13!topdown" fov_EL="101.76" enabled2="true" visible2="true" drag_hs="false"
+ 			onclick="openphotosm(%FIRSTXML%/photo/thumb/cam9.jpg,,80);"
+ 			onhover="showtext([img src=photo/thumb/cam9.jpg width=200px][/img],VRW_STYLE);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_26" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/nhon-hoi-icon.png" enabled="false" visible="false" zorder="5"
+ 			ath="-147.13" atv="55.89" width="100" height="prop" scale="0.3" edge="center"
+ 			install_onclick="5" title="hotspot_26" scene_EL="scene_13!topdown" fov_EL="101.76" enabled2="true" visible2="true" drag_hs="false"
+ 			onclick="openphotosm(%FIRSTXML%/photo/thumb/cam12.jpg,,80);"
+ 			onhover="showtext([img src=photo/thumb/cam12.jpg width=200px][/img],VRW_STYLE);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_28" style="text_hs_sm" type="text" keep="true" distorted="true" enabled="false" visible="false" zorder="6"
+ 			ath="103.0353" atv="12.9962" width="224" height="28" edge="lefttop"
+ 			css="font-family:Arial; font-size:16px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0"
+ 			bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false"
+ 			install_onclick="12" title="hotspot_28" scene_EL="scene_4!khuonvien" drag_hs="true" fov_EL="124" enabled2="true" visible2="true"
+ 			html="Khu Dân Cư Theo Quy Hoạch"
+			ondown="drag_LinkSM();"
+ 		/>
+	
+ <style name="pl_hs_add_hs"
+ 		keep="true"
+		enabled2="true"
+ 		visible2="true"
+ 		visible="false"
+ 		alpha="1"
+ 		alpha2="1"
+ 		capture="false"
+ 		handcursor="true"
+ 		zorder="0"
+ 		install_onclick="14"
+ 		fov_EL="90"
+ 		fillcolor="0xF1836A"
+ 		fillcolor2="0xFFFFFF"
+ 		fillalpha="0.00"
+ 		fillalpha2="0.00"
+ 		borderwidth="3"
+ 		borderwidth2="3"
+ 		bordercolor="0xFFFFFF"
+ 		bordercolor2="0xF1836A"
+ 		borderalpha="0.00"
+ 		borderalpha2="1.00"
+ 		onover="set_pol_2(get(name));"
+ 		onout="set_pol_1(get(name));"
+ 		ondown="ondown_pl_hs();"
+ 		blendmode="normal"
+ 		group="null"
+	 />
+
+	 <!-- polygonal hotspot -->
+
+ <hotspot name="hs_polig_233" style="pl_hs_add_hs"
+ 		  title="hs_polig_233" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB1.1.jpg,,80);"
+		>
+ 		  <point ath="-16.736" atv="73.62" />
+ 		  <point ath="-19.394" atv="74.684" />
+ 		  <point ath="-7.192" atv="76.368" />
+ 		  <point ath="-4.976" atv="75.217" />
+ </hotspot>
+
+ <hotspot name="hs_polig_66" style="pl_hs_add_hs"
+ 		  title="hs_polig_66" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-19.491" atv="74.711" />
+ 		  <point ath="-7.178" atv="76.414" />
+ 		  <point ath="-9.608" atv="77.433" />
+ 		  <point ath="-22.143" atv="75.632" />
+ </hotspot>
+
+ <hotspot name="hs_polig_65" style="pl_hs_add_hs"
+ 		  title="hs_polig_65" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-22.179" atv="75.576" />
+ 		  <point ath="-9.608" atv="77.433" />
+ 		  <point ath="-11.902" atv="78.481" />
+ 		  <point ath="-25.412" atv="76.469" />
+ </hotspot>
+
+ <hotspot name="hs_polig_29" style="pl_hs_add_hs"
+ 		  title="hs_polig_29" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-25.768" atv="76.435" />
+ 		  <point ath="-12.095" atv="78.529" />
+ 		  <point ath="-14.967" atv="79.522" />
+ 		  <point ath="-29.226" atv="77.254" />
+ </hotspot>
+
+ <hotspot name="hs_polig_22" style="pl_hs_add_hs"
+ 		  title="hs_polig_22" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-29.473" atv="77.291" />
+ 		  <point ath="-15.281" atv="79.506" />
+ 		  <point ath="-18.645" atv="80.5" />
+ 		  <point ath="-33.325" atv="78.03" />
+ </hotspot>
+
+ <hotspot name="hs_polig_23" style="pl_hs_add_hs"
+ 		  title="hs_polig_23" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-33.597" atv="78.064" />
+ 		  <point ath="-18.871" atv="80.519" />
+ 		  <point ath="-23.541" atv="81.499" />
+ 		  <point ath="-38.363" atv="78.748" />
+ </hotspot>
+
+ <hotspot name="hs_polig_15" style="pl_hs_add_hs"
+ 		  title="hs_polig_15" scene_EL="scene_1"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-38.274" atv="78.719" />
+ 		  <point ath="-23.87" atv="81.52" />
+ 		  <point ath="-29.039" atv="82.332" />
+ 		  <point ath="-43.839" atv="79.391" />
+ </hotspot>
+
+ <hotspot name="hs_polig_1" style="pl_hs_add_hs"
+ 		  title="hs_polig_1" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-43.757" atv="79.328" />
+ 		  <point ath="-29.333" atv="82.346" />
+ 		  <point ath="-36.343" atv="83.094" />
+ 		  <point ath="-49.584" atv="79.911" />
+ </hotspot>
+
+ <hotspot name="hs_polig_3" style="pl_hs_add_hs"
+ 		  title="hs_polig_3" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-49.581" atv="79.87" />
+ 		  <point ath="-36.547" atv="83.078" />
+ 		  <point ath="-45.573" atv="83.76" />
+ 		  <point ath="-56.226" atv="80.333" />
+ </hotspot>
+
+ <hotspot name="hs_polig_4" style="pl_hs_add_hs"
+ 		  title="hs_polig_4" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-56.402" atv="80.246" />
+ 		  <point ath="-45.573" atv="83.76" />
+ 		  <point ath="-55.761" atv="84.24" />
+ 		  <point ath="-63.173" atv="80.601" />
+ </hotspot>
+
+ <hotspot name="hs_polig_5" style="pl_hs_add_hs"
+ 		  title="hs_polig_5" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG1.1.jpg,,80);"
+		>
+ 		  <point ath="-63.304" atv="80.538" />
+ 		  <point ath="-71.002" atv="80.734" />
+ 		  <point ath="-76.014" atv="81.547" />
+ 		  <point ath="-77.428" atv="84.471" />
+ 		  <point ath="-55.648" atv="84.225" />
+ </hotspot>
+
+ <hotspot name="hs_polig_6" style="pl_hs_add_hs"
+ 		  title="hs_polig_6" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB1.1m.jpg,,80);"
+		>
+ 		  <point ath="-3.561" atv="76.649" />
+ 		  <point ath="-1.728" atv="75.451" />
+ 		  <point ath="12.375" atv="76.074" />
+ 		  <point ath="12.1" atv="77.412" />
+ </hotspot>
+
+ <hotspot name="hs_polig_8" style="pl_hs_add_hs"
+ 		  title="hs_polig_8" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-5.782" atv="77.792" />
+ 		  <point ath="-3.605" atv="76.773" />
+ 		  <point ath="11.925" atv="77.462" />
+ 		  <point ath="11.91" atv="78.572" />
+ </hotspot>
+
+ <hotspot name="hs_polig_9" style="pl_hs_add_hs"
+ 		  title="hs_polig_9" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-6.05" atv="77.835" />
+ 		  <point ath="11.703" atv="78.601" />
+ 		  <point ath="11.371" atv="79.81" />
+ 		  <point ath="-7.77" atv="78.89" />
+ </hotspot>
+
+ <hotspot name="hs_polig_7" style="pl_hs_add_hs"
+ 		  title="hs_polig_7" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-10.953" atv="79.827" />
+ 		  <point ath="-7.755" atv="78.849" />
+ 		  <point ath="10.921" atv="79.831" />
+ 		  <point ath="10.571" atv="80.948" />
+ </hotspot>
+
+ <hotspot name="hs_polig_11" style="pl_hs_add_hs"
+ 		  title="hs_polig_11" scene_EL="scene_1"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-13.92" atv="80.876" />
+ 		  <point ath="-10.613" atv="79.959" />
+ 		  <point ath="10.529" atv="80.948" />
+ 		  <point ath="9.793" atv="82.072" />
+ </hotspot>
+
+ <hotspot name="hs_polig_12" style="pl_hs_add_hs"
+ 		  title="hs_polig_12" scene_EL="scene_1"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-14.398" atv="80.86" />
+ 		  <point ath="9.93" atv="82.119" />
+ 		  <point ath="8.763" atv="83.326" />
+ 		  <point ath="-18.703" atv="81.983" />
+ </hotspot>
+
+ <hotspot name="hs_polig_13" style="pl_hs_add_hs"
+ 		  title="hs_polig_13" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-24.144" atv="82.895" />
+ 		  <point ath="-18.651" atv="81.955" />
+ 		  <point ath="8.268" atv="83.338" />
+ 		  <point ath="7.064" atv="84.495" />
+ </hotspot>
+
+ <hotspot name="hs_polig_14" style="pl_hs_add_hs"
+ 		  title="hs_polig_14" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-31.383" atv="83.734" />
+ 		  <point ath="-24.276" atv="82.95" />
+ 		  <point ath="7.119" atv="84.524" />
+ 		  <point ath="5.693" atv="85.696" />
+ </hotspot>
+
+ <hotspot name="hs_polig_16" style="pl_hs_add_hs"
+ 		  title="hs_polig_16" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-40.321" atv="84.499" />
+ 		  <point ath="-31.026" atv="83.787" />
+ 		  <point ath="4.921" atv="85.705" />
+ 		  <point ath="1.146" atv="86.897" />
+ </hotspot>
+
+ <hotspot name="hs_polig_17" style="pl_hs_add_hs"
+ 		  title="hs_polig_17" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-40.527" atv="84.464" />
+ 		  <point ath="0.379" atv="86.929" />
+ 		  <point ath="-8.487" atv="88.018" />
+ 		  <point ath="-51.837" atv="85.045" />
+ </hotspot>
+
+ <hotspot name="hs_polig_18" style="pl_hs_add_hs" fillcolor="0xBD0FBD" borderwidth="0"
+ 		  title="hs_polig_18" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG1.1m.jpg,,80);"
+		>
+ 		  <point ath="-77.969" atv="85.347" />
+ 		  <point ath="-83.881" atv="88.219" />
+ 		  <point ath="-44.272" atv="89.001" />
+ 		  <point ath="-8.491" atv="88.063" />
+ 		  <point ath="-52.754" atv="85.097" />
+ </hotspot>
+
+ <hotspot name="hs_polig_10" style="pl_hs_add_hs"
+ 		  title="hs_polig_10" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-18.816" atv="62.508" />
+ 		  <point ath="-17.151" atv="61.65" />
+ 		  <point ath="-11.436" atv="63.017" />
+ 		  <point ath="-12.882" atv="63.962" />
+ </hotspot>
+
+ <hotspot name="hs_polig_19" style="pl_hs_add_hs"
+ 		  title="hs_polig_19" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-20.251" atv="63.273" />
+ 		  <point ath="-18.816" atv="62.508" />
+ 		  <point ath="-12.846" atv="64.025" />
+ 		  <point ath="-14.164" atv="64.798" />
+ </hotspot>
+
+ <hotspot name="hs_polig_20" style="pl_hs_add_hs"
+ 		  title="hs_polig_20" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-21.656" atv="63.978" />
+ 		  <point ath="-20.273" atv="63.3" />
+ 		  <point ath="-14.047" atv="64.84" />
+ 		  <point ath="-15.51" atv="65.595" />
+ </hotspot>
+
+ <hotspot name="hs_polig_21" style="pl_hs_add_hs"
+ 		  title="hs_polig_21" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-23.322" atv="64.794" />
+ 		  <point ath="-21.579" atv="64.052" />
+ 		  <point ath="-15.547" atv="65.651" />
+ 		  <point ath="-17.023" atv="66.492" />
+ </hotspot>
+
+ <hotspot name="hs_polig_24" style="pl_hs_add_hs"
+ 		  title="hs_polig_24" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-24.977" atv="65.482" />
+ 		  <point ath="-23.271" atv="64.74" />
+ 		  <point ath="-17.093" atv="66.483" />
+ 		  <point ath="-18.649" atv="67.28" />
+ </hotspot>
+
+ <hotspot name="hs_polig_25" style="pl_hs_add_hs"
+ 		  title="hs_polig_25" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-26.999" atv="66.257" />
+ 		  <point ath="-24.969" atv="65.546" />
+ 		  <point ath="-18.672" atv="67.308" />
+ 		  <point ath="-20.434" atv="68.104" />
+ </hotspot>
+
+ <hotspot name="hs_polig_26" style="pl_hs_add_hs"
+ 		  title="hs_polig_26" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-28.91" atv="66.951" />
+ 		  <point ath="-27.095" atv="66.271" />
+ 		  <point ath="-20.339" atv="68.179" />
+ 		  <point ath="-22.375" atv="68.934" />
+ </hotspot>
+
+ <hotspot name="hs_polig_27" style="pl_hs_add_hs"
+ 		  title="hs_polig_27" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-31.027" atv="67.63" />
+ 		  <point ath="-28.944" atv="66.977" />
+ 		  <point ath="-22.434" atv="68.989" />
+ 		  <point ath="-24.383" atv="69.75" />
+ </hotspot>
+
+ <hotspot name="hs_polig_28" style="pl_hs_add_hs"
+ 		  title="hs_polig_28" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB1.jpg,,80);"
+		>
+ 		  <point ath="-32.982" atv="68.273" />
+ 		  <point ath="-31.102" atv="67.681" />
+ 		  <point ath="-24.384" atv="69.75" />
+ 		  <point ath="-26.547" atv="70.472" />
+ </hotspot>
+
+ <hotspot name="hs_polig_30" style="pl_hs_add_hs"
+ 		  title="hs_polig_30" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB1.jpg,,80);"
+		>
+ 		  <point ath="-40.445" atv="69.928" />
+ 		  <point ath="-37.34" atv="69.268" />
+ 		  <point ath="-31.151" atv="71.466" />
+ 		  <point ath="-34.398" atv="72.295" />
+ </hotspot>
+
+ <hotspot name="hs_polig_31" style="pl_hs_add_hs"
+ 		  title="hs_polig_31" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-43.295" atv="70.523" />
+ 		  <point ath="-40.453" atv="69.957" />
+ 		  <point ath="-34.397" atv="72.324" />
+ 		  <point ath="-37.52" atv="72.954" />
+ </hotspot>
+
+ <hotspot name="hs_polig_32" style="pl_hs_add_hs"
+ 		  title="hs_polig_32" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-46.54" atv="70.996" />
+ 		  <point ath="-43.382" atv="70.519" />
+ 		  <point ath="-37.738" atv="73.039" />
+ 		  <point ath="-41.003" atv="73.617" />
+ </hotspot>
+
+ <hotspot name="hs_polig_33" style="pl_hs_add_hs"
+ 		  title="hs_polig_33" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-49.688" atv="71.46" />
+ 		  <point ath="-46.684" atv="71.077" />
+ 		  <point ath="-41.339" atv="73.666" />
+ 		  <point ath="-44.649" atv="74.224" />
+ </hotspot>
+
+ <hotspot name="hs_polig_34" style="pl_hs_add_hs"
+ 		  title="hs_polig_34" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-53.185" atv="71.879" />
+ 		  <point ath="-49.711" atv="71.489" />
+ 		  <point ath="-44.649" atv="74.224" />
+ 		  <point ath="-48.504" atv="74.707" />
+ </hotspot>
+
+ <hotspot name="hs_polig_35" style="pl_hs_add_hs"
+ 		  title="hs_polig_35" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-56.677" atv="72.28" />
+ 		  <point ath="-53.183" atv="71.972" />
+ 		  <point ath="-48.748" atv="74.722" />
+ 		  <point ath="-52.681" atv="75.203" />
+ </hotspot>
+
+ <hotspot name="hs_polig_36" style="pl_hs_add_hs"
+ 		  title="hs_polig_36" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-60.525" atv="72.553" />
+ 		  <point ath="-56.891" atv="72.286" />
+ 		  <point ath="-52.935" atv="75.213" />
+ 		  <point ath="-57.081" atv="75.526" />
+ </hotspot>
+
+ <hotspot name="hs_polig_37" style="pl_hs_add_hs"
+ 		  title="hs_polig_37" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1.jpg,,80);"
+		>
+ 		  <point ath="-64.286" atv="72.776" />
+ 		  <point ath="-60.571" atv="72.514" />
+ 		  <point ath="-57.19" atv="75.515" />
+ 		  <point ath="-61.844" atv="75.802" />
+ </hotspot>
+
+ <hotspot name="hs_polig_38" style="pl_hs_add_hs"
+ 		  title="hs_polig_38" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="-67.897" atv="72.829" />
+ 		  <point ath="-64.41" atv="72.723" />
+ 		  <point ath="-62.004" atv="75.815" />
+ 		  <point ath="-66.242" atv="75.95" />
+ </hotspot>
+
+ <hotspot name="hs_polig_39" style="pl_hs_add_hs"
+ 		  title="hs_polig_39" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="-71.49" atv="72.963" />
+ 		  <point ath="-68.003" atv="72.879" />
+ 		  <point ath="-66.242" atv="75.95" />
+ 		  <point ath="-70.359" atv="76.107" />
+ </hotspot>
+
+ <hotspot name="hs_polig_40" style="pl_hs_add_hs"
+ 		  title="hs_polig_40" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1m.jpg,,80);"
+		>
+ 		  <point ath="-74.918" atv="72.964" />
+ 		  <point ath="-71.512" atv="72.922" />
+ 		  <point ath="-70.526" atv="76.114" />
+ 		  <point ath="-74.636" atv="76.135" />
+ </hotspot>
+
+ <hotspot name="hs_polig_41" style="pl_hs_add_hs"
+ 		  title="hs_polig_41" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2.jpg,,80);"
+		>
+ 		  <point ath="-79.003" atv="72.879" />
+ 		  <point ath="-75.069" atv="72.928" />
+ 		  <point ath="-75.082" atv="76.084" />
+ 		  <point ath="-79.977" atv="75.994" />
+ </hotspot>
+
+ <hotspot name="hs_polig_42" style="pl_hs_add_hs"
+ 		  title="hs_polig_42" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2m.jpg,,80);"
+		>
+ 		  <point ath="-93.056" atv="75.376" />
+ 		  <point ath="-89.416" atv="72.412" />
+ 		  <point ath="-85.094" atv="72.724" />
+ 		  <point ath="-87.47" atv="75.73" />
+ </hotspot>
+
+ <hotspot name="hs_polig_43" style="pl_hs_add_hs"
+ 		  title="hs_polig_43" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="-97.215" atv="74.916" />
+ 		  <point ath="-93.172" atv="72.085" />
+ 		  <point ath="-89.512" atv="72.417" />
+ 		  <point ath="-93.299" atv="75.353" />
+ </hotspot>
+
+ <hotspot name="hs_polig_44" style="pl_hs_add_hs"
+ 		  title="hs_polig_44" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1m.jpg,,80);"
+		>
+ 		  <point ath="-101.236" atv="74.413" />
+ 		  <point ath="-96.797" atv="71.629" />
+ 		  <point ath="-93.295" atv="72" />
+ 		  <point ath="-97.215" atv="74.916" />
+ </hotspot>
+
+ <hotspot name="hs_polig_45" style="pl_hs_add_hs"
+ 		  title="hs_polig_45" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="-105.113" atv="73.868" />
+ 		  <point ath="-100.153" atv="71.138" />
+ 		  <point ath="-96.894" atv="71.601" />
+ 		  <point ath="-101.342" atv="74.383" />
+ </hotspot>
+
+ <hotspot name="hs_polig_46" style="pl_hs_add_hs"
+ 		  title="hs_polig_46" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="-105.135" atv="73.863" />
+ 		  <point ath="-100.295" atv="71.126" />
+ 		  <point ath="-103.375" atv="70.64" />
+ 		  <point ath="-108.771" atv="73.159" />
+ </hotspot>
+
+ <hotspot name="hs_polig_47" style="pl_hs_add_hs"
+ 		  title="hs_polig_47" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1.jpg,,80);"
+		>
+ 		  <point ath="-108.858" atv="73.212" />
+ 		  <point ath="-103.541" atv="70.62" />
+ 		  <point ath="-106.412" atv="70.058" />
+ 		  <point ath="-112.025" atv="72.545" />
+ </hotspot>
+
+ <hotspot name="hs_polig_48" style="pl_hs_add_hs"
+ 		  title="hs_polig_48" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="-114.895" atv="71.811" />
+ 		  <point ath="-112.026" atv="72.545" />
+ 		  <point ath="-106.536" atv="70.009" />
+ 		  <point ath="-109.077" atv="69.429" />
+ </hotspot>
+
+ <hotspot name="hs_polig_49" style="pl_hs_add_hs"
+ 		  title="hs_polig_49" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2.jpg,,80);"
+		>
+ 		  <point ath="-117.822" atv="71.083" />
+ 		  <point ath="-111.786" atv="68.791" />
+ 		  <point ath="-109.3" atv="69.392" />
+ 		  <point ath="-115.132" atv="71.766" />
+ </hotspot>
+
+ <hotspot name="hs_polig_50" style="pl_hs_add_hs"
+ 		  title="hs_polig_50" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2M.jpg,,80);"
+		>
+ 		  <point ath="-123.978" atv="68.912" />
+ 		  <point ath="-118.107" atv="66.888" />
+ 		  <point ath="-115.523" atv="67.674" />
+ 		  <point ath="-121.422" atv="69.847" />
+ </hotspot>
+
+ <hotspot name="hs_polig_51" style="pl_hs_add_hs"
+ 		  title="hs_polig_51" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1m.jpg,,80);"
+		>
+ 		  <point ath="-125.975" atv="68.134" />
+ 		  <point ath="-120.191" atv="66.149" />
+ 		  <point ath="-118.256" atv="66.879" />
+ 		  <point ath="-124.077" atv="68.933" />
+ </hotspot>
+
+ <hotspot name="hs_polig_52" style="pl_hs_add_hs"
+ 		  title="hs_polig_52" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="-128.194" atv="67.292" />
+ 		  <point ath="-121.996" atv="65.37" />
+ 		  <point ath="-120.334" atv="66.138" />
+ 		  <point ath="-126.029" atv="68.098" />
+ </hotspot>
+
+ <hotspot name="hs_polig_53" style="pl_hs_add_hs"
+ 		  title="hs_polig_53" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="-129.722" atv="66.438" />
+ 		  <point ath="-123.937" atv="64.639" />
+ 		  <point ath="-122.163" atv="65.415" />
+ 		  <point ath="-128.098" atv="67.273" />
+ </hotspot>
+
+ <hotspot name="hs_polig_54" style="pl_hs_add_hs"
+ 		  title="hs_polig_54" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK3.1.jpg,,80);"
+		>
+ 		  <point ath="-131.365" atv="65.571" />
+ 		  <point ath="-125.639" atv="63.902" />
+ 		  <point ath="-123.937" atv="64.639" />
+ 		  <point ath="-129.791" atv="66.428" />
+ </hotspot>
+
+ <hotspot name="hs_polig_55" style="pl_hs_add_hs"
+ 		  title="hs_polig_55" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK3.jpg,,80);"
+		>
+ 		  <point ath="-132.881" atv="64.756" />
+ 		  <point ath="-127.288" atv="63.114" />
+ 		  <point ath="-125.767" atv="63.887" />
+ 		  <point ath="-131.389" atv="65.598" />
+ </hotspot>
+
+ <hotspot name="hs_polig_56" style="pl_hs_add_hs"
+ 		  title="hs_polig_56" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG3.jpg,,80);"
+		>
+ 		  <point ath="-134.22" atv="63.853" />
+ 		  <point ath="-128.721" atv="62.33" />
+ 		  <point ath="-127.329" atv="63.078" />
+ 		  <point ath="-132.891" atv="64.692" />
+ </hotspot>
+
+ <hotspot name="hs_polig_57" style="pl_hs_add_hs"
+ 		  title="hs_polig_57" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG5.jpg,,80);"
+		>
+ 		  <point ath="-119.928" atv="55.148" />
+ 		  <point ath="-118.774" atv="54.377" />
+ 		  <point ath="-116.872" atv="54.236" />
+ 		  <point ath="-114.156" atv="55.07" />
+ 		  <point ath="-116.365" atv="56.306" />
+ </hotspot>
+
+ <hotspot name="hs_polig_58" style="pl_hs_add_hs"
+ 		  title="hs_polig_58" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK5.jpg,,80);"
+		>
+ 		  <point ath="-122.704" atv="56.839" />
+ 		  <point ath="-119.98" atv="55.149" />
+ 		  <point ath="-116.418" atv="56.309" />
+ 		  <point ath="-119.682" atv="57.949" />
+ </hotspot>
+
+ <hotspot name="hs_polig_59" style="pl_hs_add_hs"
+ 		  title="hs_polig_59" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK4.jpg,,80);"
+		>
+ 		  <point ath="-126.041" atv="58.609" />
+ 		  <point ath="-122.812" atv="56.839" />
+ 		  <point ath="-119.677" atv="58.008" />
+ 		  <point ath="-123.38" atv="59.65" />
+ </hotspot>
+
+ <hotspot name="hs_polig_60" style="pl_hs_add_hs"
+ 		  title="hs_polig_60" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG4.jpg,,80);"
+		>
+ 		  <point ath="-130.449" atv="60.599" />
+ 		  <point ath="-126.211" atv="58.604" />
+ 		  <point ath="-123.614" atv="59.619" />
+ 		  <point ath="-128.414" atv="61.437" />
+ </hotspot>
+
+ <hotspot name="hs_polig_61" style="pl_hs_add_hs"
+ 		  title="hs_polig_61" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG6.1.jpg,,80);"
+		>
+ 		  <point ath="-123.942" atv="49.458" />
+ 		  <point ath="-122.54" atv="48.59" />
+ 		  <point ath="-119.476" atv="49.831" />
+ 		  <point ath="-120.85" atv="50.769" />
+ </hotspot>
+
+ <hotspot name="hs_polig_62" style="pl_hs_add_hs"
+ 		  title="hs_polig_62" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6m.jpg,,80);"
+		>
+ 		  <point ath="-124.862" atv="49.99" />
+ 		  <point ath="-124.002" atv="49.489" />
+ 		  <point ath="-120.897" atv="50.771" />
+ 		  <point ath="-121.742" atv="51.327" />
+ </hotspot>
+
+ <hotspot name="hs_polig_63" style="pl_hs_add_hs"
+ 		  title="hs_polig_63" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.1.jpg,,80);"
+		>
+ 		  <point ath="-125.88" atv="50.514" />
+ 		  <point ath="-124.907" atv="49.99" />
+ 		  <point ath="-121.789" atv="51.328" />
+ 		  <point ath="-122.655" atv="51.908" />
+ </hotspot>
+
+ <hotspot name="hs_polig_64" style="pl_hs_add_hs"
+ 		  title="hs_polig_64" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6m.jpg,,80);"
+		>
+ 		  <point ath="-126.879" atv="51.09" />
+ 		  <point ath="-125.834" atv="50.544" />
+ 		  <point ath="-122.701" atv="51.938" />
+ 		  <point ath="-123.69" atv="52.513" />
+ </hotspot>
+
+ <hotspot name="hs_polig_67" style="pl_hs_add_hs"
+ 		  title="hs_polig_67" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.jpg,,80);"
+		>
+ 		  <point ath="-127.992" atv="51.567" />
+ 		  <point ath="-126.876" atv="51.031" />
+ 		  <point ath="-123.787" atv="52.514" />
+ 		  <point ath="-124.805" atv="53.081" />
+ </hotspot>
+
+ <hotspot name="hs_polig_68" style="pl_hs_add_hs"
+ 		  title="hs_polig_68" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.1m.jpg,,80);"
+		>
+ 		  <point ath="-129.046" atv="52.154" />
+ 		  <point ath="-127.949" atv="51.627" />
+ 		  <point ath="-124.854" atv="53.081" />
+ 		  <point ath="-125.853" atv="53.727" />
+ </hotspot>
+
+ <hotspot name="hs_polig_69" style="pl_hs_add_hs"
+ 		  title="hs_polig_69" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB6m.jpg,,80);"
+		>
+ 		  <point ath="-130.187" atv="52.669" />
+ 		  <point ath="-129.019" atv="52.183" />
+ 		  <point ath="-125.823" atv="53.727" />
+ 		  <point ath="-127.001" atv="54.275" />
+ </hotspot>
+
+ <hotspot name="hs_polig_70" style="pl_hs_add_hs"
+ 		  title="hs_polig_70" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB6.jpg,,80);"
+		>
+ 		  <point ath="-133.372" atv="54.204" />
+ 		  <point ath="-132.047" atv="53.578" />
+ 		  <point ath="-128.868" atv="55.235" />
+ 		  <point ath="-130.09" atv="55.842" />
+ </hotspot>
+
+ <hotspot name="hs_polig_71" style="pl_hs_add_hs"
+ 		  title="hs_polig_71" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.1.jpg,,80);"
+		>
+ 		  <point ath="-134.706" atv="54.697" />
+ 		  <point ath="-133.366" atv="54.174" />
+ 		  <point ath="-130.15" atv="55.899" />
+ 		  <point ath="-131.507" atv="56.427" />
+ </hotspot>
+
+ <hotspot name="hs_polig_72" style="pl_hs_add_hs"
+ 		  title="hs_polig_72" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6m.jpg,,80);"
+		>
+ 		  <point ath="-136.112" atv="55.14" />
+ 		  <point ath="-134.799" atv="54.659" />
+ 		  <point ath="-131.508" atv="56.427" />
+ 		  <point ath="-132.853" atv="56.972" />
+ </hotspot>
+
+ <hotspot name="hs_polig_73" style="pl_hs_add_hs"
+ 		  title="hs_polig_73" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.jpg,,80);"
+		>
+ 		  <point ath="-137.582" atv="55.681" />
+ 		  <point ath="-136.171" atv="55.165" />
+ 		  <point ath="-132.859" atv="57.001" />
+ 		  <point ath="-134.194" atv="57.563" />
+ </hotspot>
+
+ <hotspot name="hs_polig_74" style="pl_hs_add_hs"
+ 		  title="hs_polig_74" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.1m.jpg,,80);"
+		>
+ 		  <point ath="-139.252" atv="56.214" />
+ 		  <point ath="-137.642" atv="55.705" />
+ 		  <point ath="-134.31" atv="57.584" />
+ 		  <point ath="-135.967" atv="58.134" />
+ </hotspot>
+
+ <hotspot name="hs_polig_75" style="pl_hs_add_hs"
+ 		  title="hs_polig_75" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG6.jpg,,80);"
+		>
+ 		  <point ath="-139.313" atv="56.236" />
+ 		  <point ath="-135.985" atv="58.192" />
+ 		  <point ath="-138.402" atv="58.942" />
+ 		  <point ath="-140.236" atv="58.793" />
+ 		  <point ath="-141.946" atv="57.7" />
+ 		  <point ath="-141.519" atv="56.886" />
+ </hotspot>
+
+ <hotspot name="hs_polig_76" style="pl_hs_add_hs"
+ 		  title="hs_polig_76" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG1.2m.jpg,,80);"
+		>
+ 		  <point ath="-124.871" atv="81.431" />
+ 		  <point ath="-110.425" atv="78.704" />
+ 		  <point ath="-104.575" atv="79.368" />
+ 		  <point ath="-102.84" atv="80.478" />
+ 		  <point ath="-113.596" atv="82.851" />
+ </hotspot>
+
+ <hotspot name="hs_polig_77" style="pl_hs_add_hs"
+ 		  title="hs_polig_77" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-125.01" atv="81.369" />
+ 		  <point ath="-110.478" atv="78.665" />
+ 		  <point ath="-115.084" atv="77.98" />
+ 		  <point ath="-129.586" atv="80.409" />
+ </hotspot>
+
+ <hotspot name="hs_polig_78" style="pl_hs_add_hs"
+ 		  title="hs_polig_78" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-129.586" atv="80.409" />
+ 		  <point ath="-129.812" atv="80.364" />
+ 		  <point ath="-133.042" atv="79.467" />
+ 		  <point ath="-119.009" atv="77.221" />
+ 		  <point ath="-115.309" atv="77.946" />
+ </hotspot>
+
+ <hotspot name="hs_polig_79" style="pl_hs_add_hs"
+ 		  title="hs_polig_79" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-133.234" atv="79.42" />
+ 		  <point ath="-136.18" atv="78.419" />
+ 		  <point ath="-122.856" atv="76.33" />
+ 		  <point ath="-119.192" atv="77.225" />
+ </hotspot>
+
+ <hotspot name="hs_polig_80" style="pl_hs_add_hs"
+ 		  title="hs_polig_80" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-136.663" atv="78.378" />
+ 		  <point ath="-139.073" atv="77.411" />
+ 		  <point ath="-126.077" atv="75.468" />
+ 		  <point ath="-122.946" atv="76.31" />
+ </hotspot>
+
+ <hotspot name="hs_polig_81" style="pl_hs_add_hs"
+ 		  title="hs_polig_81" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-139.143" atv="77.386" />
+ 		  <point ath="-141.276" atv="76.308" />
+ 		  <point ath="-128.786" atv="74.569" />
+ 		  <point ath="-125.833" atv="75.449" />
+ </hotspot>
+
+ <hotspot name="hs_polig_82" style="pl_hs_add_hs"
+ 		  title="hs_polig_82" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-141.216" atv="76.334" />
+ 		  <point ath="-141.492" atv="76.337" />
+ 		  <point ath="-142.787" atv="75.307" />
+ 		  <point ath="-131.343" atv="73.636" />
+ 		  <point ath="-129.01" atv="74.543" />
+ </hotspot>
+
+ <hotspot name="hs_polig_83" style="pl_hs_add_hs"
+ 		  title="hs_polig_83" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-143.098" atv="75.281" />
+ 		  <point ath="-144.59" atv="74.295" />
+ 		  <point ath="-133.451" atv="72.746" />
+ 		  <point ath="-131.407" atv="73.613" />
+ </hotspot>
+
+ <hotspot name="hs_polig_84" style="pl_hs_add_hs"
+ 		  title="hs_polig_84" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-144.874" atv="74.202" />
+ 		  <point ath="-133.413" atv="72.666" />
+ 		  <point ath="-135.339" atv="71.695" />
+ 		  <point ath="-146.168" atv="73.207" />
+ </hotspot>
+
+ <hotspot name="hs_polig_85" style="pl_hs_add_hs"
+ 		  title="hs_polig_85" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-146.293" atv="73.127" />
+ 		  <point ath="-147.343" atv="72.115" />
+ 		  <point ath="-137.076" atv="70.812" />
+ 		  <point ath="-135.595" atv="71.679" />
+ </hotspot>
+
+ <hotspot name="hs_polig_86" style="pl_hs_add_hs"
+ 		  title="hs_polig_86" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB1m.jpg,,80);"
+		>
+ 		  <point ath="-147.38" atv="72.088" />
+ 		  <point ath="-148.699" atv="70.843" />
+ 		  <point ath="-139.023" atv="69.655" />
+ 		  <point ath="-137.267" atv="70.715" />
+ </hotspot>
+
+ <hotspot name="hs_polig_87" style="pl_hs_add_hs"
+ 		  title="hs_polig_87" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG1.2.jpg,,80);"
+		>
+ 		  <point ath="-119.1" atv="83.562" />
+ 		  <point ath="-144.787" atv="85.201" />
+ 		  <point ath="-157.026" atv="84.601" />
+ 		  <point ath="-158.159" atv="83.307" />
+ 		  <point ath="-129.688" atv="81.967" />
+ </hotspot>
+
+ <hotspot name="hs_polig_88" style="pl_hs_add_hs"
+ 		  title="hs_polig_88" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-158.405" atv="83.314" />
+ 		  <point ath="-159.089" atv="82.192" />
+ 		  <point ath="-134.098" atv="80.993" />
+ 		  <point ath="-129.665" atv="81.925" />
+ </hotspot>
+
+ <hotspot name="hs_polig_89" style="pl_hs_add_hs"
+ 		  title="hs_polig_89" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-159.218" atv="82.105" />
+ 		  <point ath="-160.082" atv="80.989" />
+ 		  <point ath="-137.509" atv="79.958" />
+ 		  <point ath="-134.426" atv="80.922" />
+ </hotspot>
+
+ <hotspot name="hs_polig_90" style="pl_hs_add_hs"
+ 		  title="hs_polig_90" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-160.117" atv="80.96" />
+ 		  <point ath="-160.293" atv="79.825" />
+ 		  <point ath="-140.418" atv="78.907" />
+ 		  <point ath="-137.83" atv="79.924" />
+ </hotspot>
+
+ <hotspot name="hs_polig_91" style="pl_hs_add_hs"
+ 		  title="hs_polig_91" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-160.353" atv="79.767" />
+ 		  <point ath="-160.808" atv="78.611" />
+ 		  <point ath="-142.955" atv="77.778" />
+ 		  <point ath="-140.437" atv="78.841" />
+ </hotspot>
+
+ <hotspot name="hs_polig_92" style="pl_hs_add_hs"
+ 		  title="hs_polig_92" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-160.687" atv="78.577" />
+ 		  <point ath="-161.025" atv="77.478" />
+ 		  <point ath="-144.619" atv="76.711" />
+ 		  <point ath="-142.768" atv="77.791" />
+ </hotspot>
+
+ <hotspot name="hs_polig_93" style="pl_hs_add_hs"
+ 		  title="hs_polig_93" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-161.07" atv="77.42" />
+ 		  <point ath="-161.349" atv="76.321" />
+ 		  <point ath="-146.194" atv="75.62" />
+ 		  <point ath="-144.504" atv="76.698" />
+ </hotspot>
+
+ <hotspot name="hs_polig_94" style="pl_hs_add_hs"
+ 		  title="hs_polig_94" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-161.267" atv="76.258" />
+ 		  <point ath="-146.291" atv="75.566" />
+ 		  <point ath="-147.752" atv="74.543" />
+ 		  <point ath="-161.377" atv="75.184" />
+ </hotspot>
+
+ <hotspot name="hs_polig_95" style="pl_hs_add_hs"
+ 		  title="hs_polig_95" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-161.528" atv="75.131" />
+ 		  <point ath="-161.647" atv="74.001" />
+ 		  <point ath="-149.014" atv="73.448" />
+ 		  <point ath="-147.778" atv="74.451" />
+ </hotspot>
+
+ <hotspot name="hs_polig_96" style="pl_hs_add_hs"
+ 		  title="hs_polig_96" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-161.664" atv="73.972" />
+ 		  <point ath="-161.948" atv="72.883" />
+ 		  <point ath="-150.153" atv="72.322" />
+ 		  <point ath="-149.184" atv="73.404" />
+ </hotspot>
+
+ <hotspot name="hs_polig_97" style="pl_hs_add_hs"
+ 		  title="hs_polig_97" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB1.jpg,,80);"
+		>
+ 		  <point ath="-161.88" atv="72.821" />
+ 		  <point ath="-162.204" atv="71.591" />
+ 		  <point ath="-151.161" atv="71.103" />
+ 		  <point ath="-150.096" atv="72.285" />
+ </hotspot>
+
+ <hotspot name="hs_polig_98" style="pl_hs_add_hs"
+ 		  title="hs_polig_98" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB1.jpg,,80);"
+		>
+ 		  <point ath="-150.063" atv="69.034" />
+ 		  <point ath="-141.018" atv="67.959" />
+ 		  <point ath="-142.198" atv="67.047" />
+ 		  <point ath="-150.68" atv="68.061" />
+ </hotspot>
+
+ <hotspot name="hs_polig_99" style="pl_hs_add_hs"
+ 		  title="hs_polig_99" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-150.778" atv="68.041" />
+ 		  <point ath="-151.411" atv="67.076" />
+ 		  <point ath="-143.291" atv="66.13" />
+ 		  <point ath="-142.263" atv="66.995" />
+ </hotspot>
+
+ <hotspot name="hs_polig_100" style="pl_hs_add_hs"
+ 		  title="hs_polig_100" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-151.455" atv="67.02" />
+ 		  <point ath="-152.192" atv="66.043" />
+ 		  <point ath="-144.326" atv="65.117" />
+ 		  <point ath="-143.351" atv="66.077" />
+ </hotspot>
+
+ <hotspot name="hs_polig_101" style="pl_hs_add_hs"
+ 		  title="hs_polig_101" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-152.282" atv="66.023" />
+ 		  <point ath="-152.807" atv="65.058" />
+ 		  <point ath="-145.177" atv="64.208" />
+ 		  <point ath="-144.298" atv="65.143" />
+ </hotspot>
+
+ <hotspot name="hs_polig_102" style="pl_hs_add_hs"
+ 		  title="hs_polig_102" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-152.844" atv="65.002" />
+ 		  <point ath="-153.211" atv="64.117" />
+ 		  <point ath="-146.03" atv="63.307" />
+ 		  <point ath="-145.289" atv="64.165" />
+ </hotspot>
+
+ <hotspot name="hs_polig_103" style="pl_hs_add_hs"
+ 		  title="hs_polig_103" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1.jpg,,80);"
+		>
+ 		  <point ath="-153.392" atv="64.048" />
+ 		  <point ath="-153.918" atv="63.068" />
+ 		  <point ath="-146.976" atv="62.31" />
+ 		  <point ath="-146.162" atv="63.238" />
+ </hotspot>
+
+ <hotspot name="hs_polig_104" style="pl_hs_add_hs"
+ 		  title="hs_polig_104" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-153.964" atv="63.103" />
+ 		  <point ath="-154.392" atv="62.119" />
+ 		  <point ath="-147.682" atv="61.373" />
+ 		  <point ath="-146.861" atv="62.291" />
+ </hotspot>
+
+ <hotspot name="hs_polig_105" style="pl_hs_add_hs"
+ 		  title="hs_polig_105" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG1m.jpg,,80);"
+		>
+ 		  <point ath="-154.392" atv="62.119" />
+ 		  <point ath="-147.661" atv="61.399" />
+ 		  <point ath="-147.703" atv="61.347" />
+ 		  <point ath="-148.436" atv="60.394" />
+ 		  <point ath="-154.819" atv="61.086" />
+ </hotspot>
+
+ <hotspot name="hs_polig_106" style="pl_hs_add_hs"
+ 		  title="hs_polig_106" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB1m.jpg,,80);"
+		>
+ 		  <point ath="-162.703" atv="69.781" />
+ 		  <point ath="-152.374" atv="69.346" />
+ 		  <point ath="-152.865" atv="68.299" />
+ 		  <point ath="-162.773" atv="68.746" />
+ </hotspot>
+
+ <hotspot name="hs_polig_107" style="pl_hs_add_hs"
+ 		  title="hs_polig_107" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-162.71" atv="68.684" />
+ 		  <point ath="-162.939" atv="67.629" />
+ 		  <point ath="-153.624" atv="67.254" />
+ 		  <point ath="-152.908" atv="68.242" />
+ </hotspot>
+
+ <hotspot name="hs_polig_108" style="pl_hs_add_hs"
+ 		  title="hs_polig_108" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-162.861" atv="67.626" />
+ 		  <point ath="-162.91" atv="66.626" />
+ 		  <point ath="-154.14" atv="66.251" />
+ 		  <point ath="-153.59" atv="67.19" />
+ </hotspot>
+
+ <hotspot name="hs_polig_109" style="pl_hs_add_hs"
+ 		  title="hs_polig_109" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1m.jpg,,80);"
+		>
+ 		  <point ath="-162.926" atv="66.568" />
+ 		  <point ath="-162.978" atv="65.543" />
+ 		  <point ath="-154.7" atv="65.229" />
+ 		  <point ath="-154.195" atv="66.166" />
+ </hotspot>
+
+ <hotspot name="hs_polig_110" style="pl_hs_add_hs"
+ 		  title="hs_polig_110" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-163.063" atv="65.488" />
+ 		  <point ath="-154.666" atv="65.166" />
+ 		  <point ath="-155.135" atv="64.232" />
+ 		  <point ath="-162.936" atv="64.606" />
+ </hotspot>
+
+ <hotspot name="hs_polig_111" style="pl_hs_add_hs"
+ 		  title="hs_polig_111" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-162.943" atv="64.577" />
+ 		  <point ath="-155.216" atv="64.21" />
+ 		  <point ath="-155.601" atv="63.244" />
+ 		  <point ath="-163.179" atv="63.599" />
+ </hotspot>
+
+ <hotspot name="hs_polig_112" style="pl_hs_add_hs"
+ 		  title="hs_polig_112" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-163.127" atv="63.539" />
+ 		  <point ath="-155.615" atv="63.216" />
+ 		  <point ath="-156.155" atv="62.272" />
+ 		  <point ath="-163.285" atv="62.564" />
+ </hotspot>
+
+ <hotspot name="hs_polig_113" style="pl_hs_add_hs"
+ 		  title="hs_polig_113" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG1.jpg,,80);"
+		>
+ 		  <point ath="-163.292" atv="62.535" />
+ 		  <point ath="-156.047" atv="62.232" />
+ 		  <point ath="-156.442" atv="61.137" />
+ 		  <point ath="-163.226" atv="61.413" />
+ </hotspot>
+
+ <hotspot name="hs_polig_114" style="pl_hs_add_hs"
+ 		  title="hs_polig_114" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.jpg,,80);"
+		>
+ 		  <point ath="-14.325" atv="80.838" />
+ 		  <point ath="-10.552" atv="79.914" />
+ 		  <point ath="10.9" atv="80.984" />
+ 		  <point ath="9.527" atv="82.051" />
+ </hotspot>
+
+ <hotspot name="hs_polig_115" style="pl_hs_add_hs"
+ 		  title="hs_polig_115" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK1.1m.jpg,,80);"
+		>
+ 		  <point ath="-14.401" atv="80.865" />
+ 		  <point ath="9.741" atv="82.08" />
+ 		  <point ath="8.955" atv="83.204" />
+ 		  <point ath="-18.112" atv="81.876" />
+ </hotspot>
+
+ <hotspot name="hs_polig_116" style="pl_hs_add_hs"
+ 		  title="hs_polig_116" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG6m.jpg,,80);"
+		>
+ 		  <point ath="179.704" atv="62.874" />
+ 		  <point ath="-178.742" atv="60.371" />
+ 		  <point ath="-175.487" atv="60.584" />
+ 		  <point ath="-174.017" atv="61.322" />
+ 		  <point ath="-174.71" atv="62.8" />
+ 		  <point ath="-176.759" atv="63.297" />
+ </hotspot>
+
+ <hotspot name="hs_polig_117" style="pl_hs_add_hs"
+ 		  title="hs_polig_117" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6m.jpg,,80);"
+		>
+ 		  <point ath="177.13" atv="62.577" />
+ 		  <point ath="178.966" atv="60.03" />
+ 		  <point ath="-178.871" atv="60.358" />
+ 		  <point ath="179.58" atv="62.888" />
+ </hotspot>
+
+ <hotspot name="hs_polig_118" style="pl_hs_add_hs"
+ 		  title="hs_polig_118" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.1.jpg,,80);"
+		>
+ 		  <point ath="174.787" atv="62.218" />
+ 		  <point ath="176.855" atv="59.843" />
+ 		  <point ath="178.853" atv="60.043" />
+ 		  <point ath="177.055" atv="62.555" />
+ </hotspot>
+
+ <hotspot name="hs_polig_119" style="pl_hs_add_hs"
+ 		  title="hs_polig_119" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6m.jpg,,80);"
+		>
+ 		  <point ath="172.637" atv="61.87" />
+ 		  <point ath="174.656" atv="59.483" />
+ 		  <point ath="176.729" atv="59.826" />
+ 		  <point ath="174.726" atv="62.223" />
+ </hotspot>
+
+ <hotspot name="hs_polig_120" style="pl_hs_add_hs"
+ 		  title="hs_polig_120" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB6m.jpg,,80);"
+		>
+ 		  <point ath="170.213" atv="61.444" />
+ 		  <point ath="172.581" atv="59.169" />
+ 		  <point ath="174.542" atv="59.493" />
+ 		  <point ath="172.504" atv="61.849" />
+ </hotspot>
+
+ <hotspot name="hs_polig_121" style="pl_hs_add_hs"
+ 		  title="hs_polig_121" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB6.jpg,,80);"
+		>
+ 		  <point ath="164.357" atv="60.189" />
+ 		  <point ath="167.205" atv="58.124" />
+ 		  <point ath="169.035" atv="58.528" />
+ 		  <point ath="166.395" atv="60.618" />
+ </hotspot>
+
+ <hotspot name="hs_polig_122" style="pl_hs_add_hs"
+ 		  title="hs_polig_122" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.1.jpg,,80);"
+		>
+ 		  <point ath="162.423" atv="59.724" />
+ 		  <point ath="165.347" atv="57.669" />
+ 		  <point ath="167.127" atv="58.073" />
+ 		  <point ath="164.21" atv="60.113" />
+ </hotspot>
+
+ <hotspot name="hs_polig_123" style="pl_hs_add_hs"
+ 		  title="hs_polig_123" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6m.jpg,,80);"
+		>
+ 		  <point ath="163.654" atv="57.235" />
+ 		  <point ath="160.752" atv="59.156" />
+ 		  <point ath="162.414" atv="59.694" />
+ 		  <point ath="165.229" atv="57.651" />
+ </hotspot>
+
+ <hotspot name="hs_polig_124" style="pl_hs_add_hs"
+ 		  title="hs_polig_124" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.jpg,,80);"
+		>
+ 		  <point ath="163.654" atv="57.235" />
+ 		  <point ath="162.112" atv="56.798" />
+ 		  <point ath="159.088" atv="58.628" />
+ 		  <point ath="160.638" atv="59.163" />
+ 		  <point ath="163.645" atv="57.206" />
+ </hotspot>
+
+ <hotspot name="hs_polig_125" style="pl_hs_add_hs"
+ 		  title="hs_polig_125" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.1m.jpg,,80);"
+		>
+ 		  <point ath="157.429" atv="58.168" />
+ 		  <point ath="160.439" atv="56.323" />
+ 		  <point ath="161.938" atv="56.752" />
+ 		  <point ath="158.925" atv="58.666" />
+ </hotspot>
+
+ <hotspot name="hs_polig_126" style="pl_hs_add_hs"
+ 		  title="hs_polig_126" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK6.jpg,,80);"
+		>
+ 		  <point ath="156.024" atv="57.593" />
+ 		  <point ath="157.425" atv="58.139" />
+ 		  <point ath="160.374" atv="56.268" />
+ 		  <point ath="158.962" atv="55.817" />
+ </hotspot>
+
+ <hotspot name="hs_polig_127" style="pl_hs_add_hs"
+ 		  title="hs_polig_127" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG6.2.jpg,,80);"
+		>
+ 		  <point ath="158.962" atv="55.817" />
+ 		  <point ath="157.195" atv="55.159" />
+ 		  <point ath="156.547" atv="55.389" />
+ 		  <point ath="153.67" atv="54.89" />
+ 		  <point ath="152.333" atv="55.485" />
+ 		  <point ath="156.528" atv="57.163" />
+ </hotspot>
+
+ <hotspot name="hs_polig_128" style="pl_hs_add_hs"
+ 		  title="hs_polig_128" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG2m.jpg,,80);"
+		>
+ 		  <point ath="175.134" atv="69.108" />
+ 		  <point ath="177.554" atv="66.619" />
+ 		  <point ath="-179.352" atv="66.856" />
+ 		  <point ath="-177.314" atv="67.778" />
+ 		  <point ath="-178.8" atv="69.633" />
+ </hotspot>
+
+ <hotspot name="hs_polig_129" style="pl_hs_add_hs"
+ 		  title="hs_polig_129" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="171.894" atv="68.608" />
+ 		  <point ath="174.737" atv="66.136" />
+ 		  <point ath="177.599" atv="66.54" />
+ 		  <point ath="175.055" atv="69.057" />
+ </hotspot>
+
+ <hotspot name="hs_polig_130" style="pl_hs_add_hs"
+ 		  title="hs_polig_130" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1.jpg,,80);"
+		>
+ 		  <point ath="168.902" atv="68.218" />
+ 		  <point ath="171.861" atv="65.859" />
+ 		  <point ath="174.586" atv="66.202" />
+ 		  <point ath="171.788" atv="68.595" />
+ </hotspot>
+
+ <hotspot name="hs_polig_131" style="pl_hs_add_hs"
+ 		  title="hs_polig_131" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="165.921" atv="67.692" />
+ 		  <point ath="169.361" atv="65.405" />
+ 		  <point ath="171.829" atv="65.833" />
+ 		  <point ath="168.768" atv="68.176" />
+ </hotspot>
+
+ <hotspot name="hs_polig_132" style="pl_hs_add_hs"
+ 		  title="hs_polig_132" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2m.jpg,,80);"
+		>
+ 		  <point ath="163.044" atv="67.083" />
+ 		  <point ath="166.891" atv="64.856" />
+ 		  <point ath="169.207" atv="65.401" />
+ 		  <point ath="165.912" atv="67.599" />
+ </hotspot>
+
+ <hotspot name="hs_polig_133" style="pl_hs_add_hs"
+ 		  title="hs_polig_133" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2.jpg,,80);"
+		>
+ 		  <point ath="156.51" atv="65.373" />
+ 		  <point ath="160.67" atv="63.203" />
+ 		  <point ath="162.692" atv="63.79" />
+ 		  <point ath="158.97" atv="65.986" />
+ </hotspot>
+
+ <hotspot name="hs_polig_134" style="pl_hs_add_hs"
+ 		  title="hs_polig_134" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1m.jpg,,80);"
+		>
+ 		  <point ath="154.49" atv="64.667" />
+ 		  <point ath="158.576" atv="62.664" />
+ 		  <point ath="160.501" atv="63.253" />
+ 		  <point ath="156.427" atv="65.35" />
+ </hotspot>
+
+ <hotspot name="hs_polig_135" style="pl_hs_add_hs"
+ 		  title="hs_polig_135" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="152.377" atv="63.948" />
+ 		  <point ath="156.606" atv="62.06" />
+ 		  <point ath="158.422" atv="62.62" />
+ 		  <point ath="154.331" atv="64.619" />
+ </hotspot>
+
+ <hotspot name="hs_polig_136" style="pl_hs_add_hs"
+ 		  title="hs_polig_136" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="150.647" atv="63.246" />
+ 		  <point ath="154.836" atv="61.421" />
+ 		  <point ath="156.459" atv="62.015" />
+ 		  <point ath="152.311" atv="63.951" />
+ </hotspot>
+
+ <hotspot name="hs_polig_137" style="pl_hs_add_hs"
+ 		  title="hs_polig_137" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1.jpg,,80);"
+		>
+ 		  <point ath="148.813" atv="62.532" />
+ 		  <point ath="153.04" atv="60.826" />
+ 		  <point ath="154.645" atv="61.407" />
+ 		  <point ath="150.568" atv="63.191" />
+ </hotspot>
+
+ <hotspot name="hs_polig_138" style="pl_hs_add_hs"
+ 		  title="hs_polig_138" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="147.384" atv="61.819" />
+ 		  <point ath="151.431" atv="60.202" />
+ 		  <point ath="153.004" atv="60.712" />
+ 		  <point ath="148.935" atv="62.498" />
+ 		  <point ath="148.735" atv="62.447" />
+ </hotspot>
+
+ <hotspot name="hs_polig_139" style="pl_hs_add_hs"
+ 		  title="hs_polig_139" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK7m.jpg,,80);"
+		>
+ 		  <point ath="144.948" atv="60.645" />
+ 		  <point ath="148.171" atv="59.456" />
+ 		  <point ath="150.403" atv="60.487" />
+ 		  <point ath="147.224" atv="61.764" />
+ </hotspot>
+
+ <hotspot name="hs_polig_140" style="pl_hs_add_hs"
+ 		  title="hs_polig_140" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB7m.jpg,,80);"
+		>
+ 		  <point ath="142.602" atv="59.414" />
+ 		  <point ath="145.662" atv="58.348" />
+ 		  <point ath="147.93" atv="59.433" />
+ 		  <point ath="144.847" atv="60.558" />
+ </hotspot>
+
+ <hotspot name="hs_polig_141" style="pl_hs_add_hs"
+ 		  title="hs_polig_141" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG2.jpg,,80);"
+		>
+ 		  <point ath="170.677" atv="72.521" />
+ 		  <point ath="174.12" atv="69.996" />
+ 		  <point ath="-179.438" atv="70.586" />
+ 		  <point ath="178.618" atv="72.568" />
+ 		  <point ath="174.464" atv="73.02" />
+ </hotspot>
+
+ <hotspot name="hs_polig_142" style="pl_hs_add_hs"
+ 		  title="hs_polig_142" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="166.84" atv="71.992" />
+ 		  <point ath="170.754" atv="69.518" />
+ 		  <point ath="173.975" atv="69.925" />
+ 		  <point ath="170.363" atv="72.477" />
+ </hotspot>
+
+ <hotspot name="hs_polig_143" style="pl_hs_add_hs"
+ 		  title="hs_polig_143" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1.jpg,,80);"
+		>
+ 		  <point ath="163.493" atv="71.377" />
+ 		  <point ath="167.785" atv="69.023" />
+ 		  <point ath="170.511" atv="69.434" />
+ 		  <point ath="166.625" atv="71.928" />
+ </hotspot>
+
+ <hotspot name="hs_polig_144" style="pl_hs_add_hs"
+ 		  title="hs_polig_144" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="160.268" atv="70.715" />
+ 		  <point ath="164.729" atv="68.515" />
+ 		  <point ath="167.558" atv="68.935" />
+ 		  <point ath="163.252" atv="71.348" />
+ </hotspot>
+
+ <hotspot name="hs_polig_145" style="pl_hs_add_hs"
+ 		  title="hs_polig_145" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2.jpg,,80);"
+		>
+ 		  <point ath="157.138" atv="69.979" />
+ 		  <point ath="161.812" atv="67.887" />
+ 		  <point ath="164.729" atv="68.45" />
+ 		  <point ath="159.878" atv="70.731" />
+ </hotspot>
+
+ <hotspot name="hs_polig_146" style="pl_hs_add_hs"
+ 		  title="hs_polig_146" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2m.jpg,,80);"
+		>
+ 		  <point ath="150.158" atv="67.923" />
+ 		  <point ath="155.202" atv="66.021" />
+ 		  <point ath="157.565" atv="66.667" />
+ 		  <point ath="152.452" atv="68.689" />
+ </hotspot>
+
+ <hotspot name="hs_polig_147" style="pl_hs_add_hs"
+ 		  title="hs_polig_147" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1.jpg,,80);"
+		>
+ 		  <point ath="147.998" atv="67.097" />
+ 		  <point ath="153.056" atv="65.27" />
+ 		  <point ath="155.091" atv="65.974" />
+ 		  <point ath="150.2" atv="67.859" />
+ </hotspot>
+
+ <hotspot name="hs_polig_148" style="pl_hs_add_hs"
+ 		  title="hs_polig_148" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="146.017" atv="66.332" />
+ 		  <point ath="151.195" atv="64.534" />
+ 		  <point ath="152.933" atv="65.193" />
+ 		  <point ath="147.91" atv="67.073" />
+ </hotspot>
+
+ <hotspot name="hs_polig_149" style="pl_hs_add_hs"
+ 		  title="hs_polig_149" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="144.211" atv="65.482" />
+ 		  <point ath="149.242" atv="63.793" />
+ 		  <point ath="151.113" atv="64.512" />
+ 		  <point ath="145.996" atv="66.274" />
+ </hotspot>
+
+ <hotspot name="hs_polig_150" style="pl_hs_add_hs"
+ 		  title="hs_polig_150" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1m.jpg,,80);"
+		>
+ 		  <point ath="142.65" atv="64.697" />
+ 		  <point ath="147.524" atv="63.105" />
+ 		  <point ath="149.212" atv="63.793" />
+ 		  <point ath="144.165" atv="65.424" />
+ </hotspot>
+
+ <hotspot name="hs_polig_151" style="pl_hs_add_hs"
+ 		  title="hs_polig_151" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="140.935" atv="63.848" />
+ 		  <point ath="145.829" atv="62.318" />
+ 		  <point ath="147.449" atv="63.082" />
+ 		  <point ath="142.438" atv="64.676" />
+ </hotspot>
+
+ <hotspot name="hs_polig_152" style="pl_hs_add_hs"
+ 		  title="hs_polig_152" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK7.jpg,,80);"
+		>
+ 		  <point ath="140.14" atv="62.217" />
+ 		  <point ath="143.588" atv="61.144" />
+ 		  <point ath="145.872" atv="62.258" />
+ 		  <point ath="142.31" atv="63.397" />
+ </hotspot>
+
+ <hotspot name="hs_polig_153" style="pl_hs_add_hs"
+ 		  title="hs_polig_153" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB7.jpg,,80);"
+		>
+ 		  <point ath="137.959" atv="60.786" />
+ 		  <point ath="141.28" atv="59.866" />
+ 		  <point ath="143.508" atv="61.062" />
+ 		  <point ath="140.071" atv="62.161" />
+ </hotspot>
+
+ <hotspot name="hs_polig_154" style="pl_hs_add_hs"
+ 		  title="hs_polig_154" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG2m.jpg,,80);"
+		>
+ 		  <point ath="154.497" atv="78.567" />
+ 		  <point ath="162.763" atv="76.27" />
+ 		  <point ath="167.905" atv="76.938" />
+ 		  <point ath="169.951" atv="78.042" />
+ 		  <point ath="164.351" atv="79.886" />
+ </hotspot>
+
+ <hotspot name="hs_polig_155" style="pl_hs_add_hs"
+ 		  title="hs_polig_155" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="149.643" atv="77.631" />
+ 		  <point ath="158.515" atv="75.502" />
+ 		  <point ath="162.786" atv="76.229" />
+ 		  <point ath="154.355" atv="78.516" />
+ </hotspot>
+
+ <hotspot name="hs_polig_156" style="pl_hs_add_hs"
+ 		  title="hs_polig_156" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1m.jpg,,80);"
+		>
+ 		  <point ath="145.934" atv="76.734" />
+ 		  <point ath="154.607" atv="74.741" />
+ 		  <point ath="158.229" atv="75.444" />
+ 		  <point ath="149.53" atv="77.578" />
+ </hotspot>
+
+ <hotspot name="hs_polig_157" style="pl_hs_add_hs"
+ 		  title="hs_polig_157" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="142.581" atv="75.703" />
+ 		  <point ath="151.018" atv="73.891" />
+ 		  <point ath="154.306" atv="74.719" />
+ 		  <point ath="145.797" atv="76.651" />
+ </hotspot>
+
+ <hotspot name="hs_polig_158" style="pl_hs_add_hs"
+ 		  title="hs_polig_158" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2m.jpg,,80);"
+		>
+ 		  <point ath="139.651" atv="74.722" />
+ 		  <point ath="147.994" atv="73.055" />
+ 		  <point ath="150.881" atv="73.812" />
+ 		  <point ath="142.621" atv="75.638" />
+ </hotspot>
+
+ <hotspot name="hs_polig_159" style="pl_hs_add_hs"
+ 		  title="hs_polig_159" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2.jpg,,80);"
+		>
+ 		  <point ath="133.398" atv="71.927" />
+ 		  <point ath="141.289" atv="70.4" />
+ 		  <point ath="143.597" atv="71.331" />
+ 		  <point ath="135.382" atv="72.962" />
+ </hotspot>
+
+ <hotspot name="hs_polig_160" style="pl_hs_add_hs"
+ 		  title="hs_polig_160" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1m.jpg,,80);"
+		>
+ 		  <point ath="131.447" atv="70.884" />
+ 		  <point ath="139.128" atv="69.478" />
+ 		  <point ath="141.264" atv="70.372" />
+ 		  <point ath="133.275" atv="71.874" />
+ </hotspot>
+
+ <hotspot name="hs_polig_161" style="pl_hs_add_hs"
+ 		  title="hs_polig_161" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="129.943" atv="69.786" />
+ 		  <point ath="137.272" atv="68.465" />
+ 		  <point ath="138.985" atv="69.4" />
+ 		  <point ath="131.536" atv="70.88" />
+ </hotspot>
+
+ <hotspot name="hs_polig_162" style="pl_hs_add_hs"
+ 		  title="hs_polig_162" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="128.617" atv="68.798" />
+ 		  <point ath="135.579" atv="67.584" />
+ 		  <point ath="137.254" atv="68.437" />
+ 		  <point ath="129.935" atv="69.757" />
+ </hotspot>
+
+ <hotspot name="hs_polig_163" style="pl_hs_add_hs"
+ 		  title="hs_polig_163" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1.jpg,,80);"
+		>
+ 		  <point ath="127.483" atv="67.774" />
+ 		  <point ath="134.246" atv="66.704" />
+ 		  <point ath="135.64" atv="67.55" />
+ 		  <point ath="128.444" atv="68.744" />
+ </hotspot>
+
+ <hotspot name="hs_polig_164" style="pl_hs_add_hs"
+ 		  title="hs_polig_164" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK7m.jpg,,80);"
+		>
+ 		  <point ath="126.454" atv="66.804" />
+ 		  <point ath="132.898" atv="65.708" />
+ 		  <point ath="134.233" atv="66.676" />
+ 		  <point ath="127.479" atv="67.745" />
+ </hotspot>
+
+ <hotspot name="hs_polig_165" style="pl_hs_add_hs"
+ 		  title="hs_polig_165" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK7m.jpg,,80);"
+		>
+ 		  <point ath="124.849" atv="65.178" />
+ 		  <point ath="129.619" atv="64.452" />
+ 		  <point ath="131.386" atv="65.903" />
+ 		  <point ath="126.374" atv="66.748" />
+ </hotspot>
+
+ <hotspot name="hs_polig_166" style="pl_hs_add_hs"
+ 		  title="hs_polig_166" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB7m.jpg,,80);"
+		>
+ 		  <point ath="123.33" atv="63.56" />
+ 		  <point ath="127.671" atv="62.869" />
+ 		  <point ath="129.654" atv="64.415" />
+ 		  <point ath="124.885" atv="65.116" />
+ </hotspot>
+
+ <hotspot name="hs_polig_167" style="pl_hs_add_hs"
+ 		  title="hs_polig_167" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG2.jpg,,80);"
+		>
+ 		  <point ath="135.794" atv="81.129" />
+ 		  <point ath="150.348" atv="79.322" />
+ 		  <point ath="160.983" atv="80.853" />
+ 		  <point ath="150.914" atv="82.607" />
+ 		  <point ath="141.509" atv="82.41" />
+ </hotspot>
+
+ <hotspot name="hs_polig_168" style="pl_hs_add_hs"
+ 		  title="hs_polig_168" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="131.831" atv="80.003" />
+ 		  <point ath="145.979" atv="78.358" />
+ 		  <point ath="150.449" atv="79.241" />
+ 		  <point ath="135.557" atv="81.11" />
+ </hotspot>
+
+ <hotspot name="hs_polig_169" style="pl_hs_add_hs"
+ 		  title="hs_polig_169" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1.jpg,,80);"
+		>
+ 		  <point ath="129.409" atv="78.836" />
+ 		  <point ath="141.699" atv="77.353" />
+ 		  <point ath="145.495" atv="78.306" />
+ 		  <point ath="131.807" atv="79.882" />
+ </hotspot>
+
+ <hotspot name="hs_polig_170" style="pl_hs_add_hs"
+ 		  title="hs_polig_170" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="126.916" atv="77.668" />
+ 		  <point ath="138.663" atv="76.33" />
+ 		  <point ath="141.822" atv="77.341" />
+ 		  <point ath="129.111" atv="78.847" />
+ </hotspot>
+
+ <hotspot name="hs_polig_171" style="pl_hs_add_hs"
+ 		  title="hs_polig_171" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2.jpg,,80);"
+		>
+ 		  <point ath="124.721" atv="76.483" />
+ 		  <point ath="135.677" atv="75.271" />
+ 		  <point ath="138.65" atv="76.237" />
+ 		  <point ath="126.56" atv="77.56" />
+ </hotspot>
+
+ <hotspot name="hs_polig_172" style="pl_hs_add_hs"
+ 		  title="hs_polig_172" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB2m.jpg,,80);"
+		>
+ 		  <point ath="121.34" atv="73.263" />
+ 		  <point ath="130.829" atv="72.299" />
+ 		  <point ath="132.49" atv="73.334" />
+ 		  <point ath="122.669" atv="74.393" />
+ </hotspot>
+
+ <hotspot name="hs_polig_173" style="pl_hs_add_hs"
+ 		  title="hs_polig_173" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1.jpg,,80);"
+		>
+ 		  <point ath="120.218" atv="72.126" />
+ 		  <point ath="129.224" atv="71.2" />
+ 		  <point ath="130.692" atv="72.248" />
+ 		  <point ath="121.208" atv="73.265" />
+ </hotspot>
+
+ <hotspot name="hs_polig_174" style="pl_hs_add_hs"
+ 		  title="hs_polig_174" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2m.jpg,,80);"
+		>
+ 		  <point ath="119.161" atv="70.958" />
+ 		  <point ath="127.538" atv="70.106" />
+ 		  <point ath="129.027" atv="71.182" />
+ 		  <point ath="120.401" atv="72.065" />
+ </hotspot>
+
+ <hotspot name="hs_polig_175" style="pl_hs_add_hs"
+ 		  title="hs_polig_175" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="118.485" atv="69.875" />
+ 		  <point ath="126.411" atv="69.129" />
+ 		  <point ath="127.524" atv="70.077" />
+ 		  <point ath="119.34" atv="70.927" />
+ </hotspot>
+
+ <hotspot name="hs_polig_176" style="pl_hs_add_hs"
+ 		  title="hs_polig_176" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.1m.jpg,,80);"
+		>
+ 		  <point ath="117.795" atv="68.793" />
+ 		  <point ath="125.198" atv="68.07" />
+ 		  <point ath="126.399" atv="69.1" />
+ 		  <point ath="118.399" atv="69.875" />
+ </hotspot>
+
+ <hotspot name="hs_polig_177" style="pl_hs_add_hs"
+ 		  title="hs_polig_177" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LK2.jpg,,80);"
+		>
+ 		  <point ath="117.143" atv="67.686" />
+ 		  <point ath="124.148" atv="67.033" />
+ 		  <point ath="125.469" atv="68.027" />
+ 		  <point ath="117.765" atv="68.765" />
+ </hotspot>
+
+ <hotspot name="hs_polig_178" style="pl_hs_add_hs"
+ 		  title="hs_polig_178" scene_EL="scene_13!topdown"
+ 		  onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG2.1.jpg,,80);"
+		>
+ 		  <point ath="117.144" atv="67.657" />
+ 		  <point ath="124.057" atv="66.979" />
+ 		  <point ath="121.759" atv="63.804" />
+ 		  <point ath="117.284" atv="64.203" />
+ </hotspot>
+
+
+ 
+</krpano>

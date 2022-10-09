@@ -1,0 +1,49 @@
+
+<krpano>
+
+    <plan_settings  pin_cod="world" 
+ 					start_open_plan="true" 
+ 					start_open_plan_mobila="true" 
+					point_url_1="red.png" 
+					point_url_2="gray.png" 
+					point_url_3="green.png" 
+					pointV_url_1="gl_r.png" 
+					pointV_url_2="gl.png" 
+					point_current="true" 
+					point_scale="0.41" 
+					radar_scale="0.4" 
+					compass_enabled="false" 
+					start_open_compass="false" 
+					compass_on_plan="false" 
+					title_spot="true" 
+					title_V="true" 
+					keep_viev="true" 
+					design_bgcolor_cb="8732208" 
+					click_spot_close_plan="false" 
+					click_V_close_plan="false" 
+					click_close_plan="false" 
+					onhover_button_open_plan="false" 
+					width_mobile="0.8" 
+					height_mobile="0.9" 
+					name_FIRSTXML="tour" 
+					list_plan="true" 
+					button_fullscreen="true" 
+					angle_placemark="true" 
+					open_plan_resetting_size="false" 
+ 				/>
+
+    <layer  name="plansm_1"  style="plan_layer"  name_plan="Tầng Trệt"  plan_ur="01.jpg"  start_scene="scene_can1!01!cong!1"  compas_flpl="0"  />
+
+	<!-- no points  --> 
+	<!-- no viewpoints  --> 
+
+   <layer  name="top_container_plan"  type="container"  keep="true"  enabled="true"  alpha="0"  align="lefttop"  x="17"  y="21"  width="183"  height="26"  maskchildren="false"  zorder="50" 
+ 			ox="0"  oy="-0.93"  bgcolor="8732208"  bgalpha="0.43"  bgcapture="true"  bgborder="0,0,0,0 0xE7FF00 1.00"  bgshadow="0 5 16 0 0x0B0B0B 0.34"  bgroundedge="0 0 0 0" 
+ 			onhover=""  onout=""  ondown="drag_plan();"  />
+
+   <layer  name="container_plan1"  type="container"  keep="true"  enabled="true"  alpha="0"  align="lefttop"  x="17"  y="47"  width="183"  height="434"  maskchildren="true"  zorder="49" 
+ 			ox="0"  oy="0"  bgcolor="16204"  bgalpha="0.55"  bgcapture="true"  bgborder="0,0,0,0 0xE6FF00 0.00"  bgshadow="2 5 10 4 0x1D1D1D 0.49"  bgroundedge="0 0 0 0" 
+ 			onhover="set(maschtab,true); "  onout="set(maschtab,false);"  ondown="0"  />
+
+
+</krpano>

@@ -1,0 +1,38 @@
+<krpano  onstart="playsound(bg, sound/bgsound.mp3,0)">
+
+
+
+
+	<plugin name="soundinterface"
+        url.html5="gokuplugin/sound/plugins/soundinterface.js"
+        url.flash="plugins/soundinterface.swf"
+        preload="true"
+        rootpath=""
+        volume="1.0"
+        mute="false"
+        panningmodel="simple"
+        worldscale="1.0"
+        autopause="true"
+        autounlock="true"
+        />
+	<action name="play">
+ playsound(bg)
+ </action>
+
+ <plugin type="image" keep="true" url="gokuplugin/sound/volume.png" name="sound_on" visible="true"
+	scale="0.18" align="bottomcenter" x="-25" y="55"
+   	alpha="1.0" 
+   	onhover="showtext(Tắt nhạc)" onover="set(alpha,1.0)" onout="set(alpha,0.7)"
+ 	onclick="action(mute); set(plugin[sound_on].visible,false); set(plugin[sound_off].visible,true)"/>
+
+ <plugin type="image" keep="true" name="sound_off" url="gokuplugin/sound/mute.png" visible="false" 
+  scale="0.18"
+  align="bottomcenter" x="-25" y="55"
+  alpha="0.8" 
+  onhover="showtext(Bật nhạc)" onover="set(alpha,1.0)" onout="set(alpha,0.7)"
+ onclick="action(play); set(plugin[sound_off].visible,false); set(plugin[sound_on].visible,true)"/>
+
+ <action name="mute">
+    stopsound(bg)
+    </action>
+</krpano>

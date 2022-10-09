@@ -1,0 +1,75 @@
+
+<krpano>
+
+    <plan_settings  pin_cod="world" 
+ 					start_open_plan="true" 
+ 					start_open_plan_mobila="false" 
+					point_url_1="red.png" 
+					point_url_2="gray.png" 
+					point_url_3="green.png" 
+					pointV_url_1="gl_r.png" 
+					pointV_url_2="gl.png" 
+					point_current="true" 
+					point_scale="0.41" 
+					radar_scale="0.4" 
+					compass_enabled="false" 
+					start_open_compass="false" 
+					compass_on_plan="false" 
+					title_spot="true" 
+					title_V="true" 
+					keep_viev="true" 
+					design_bgcolor_cb="0x00ANAN" 
+					click_spot_close_plan="false" 
+					click_V_close_plan="false" 
+					click_close_plan="false" 
+					onhover_button_open_plan="false" 
+					width_mobile="0.8" 
+					height_mobile="0.9" 
+					name_FIRSTXML="tour" 
+					list_plan="true" 
+					button_fullscreen="true" 
+					angle_placemark="true" 
+					open_plan_resetting_size="false" 
+ 				/>
+
+    <layer  name="plansm_1"  style="plan_layer"  name_plan="Tầng Trệt"  plan_ur="01.jpg"  start_scene="scene_1-cong"  compas_flpl="0"  />
+    <layer  name="plansm_2"  style="plan_layer"  name_plan="Lầu 1"  plan_ur="02.jpg"  start_scene="scene_7-tang-1"  compas_flpl="0"  />
+    <layer  name="plansm_3"  style="plan_layer"  name_plan="Lầu 2"  plan_ur="03.jpg"  start_scene="scene_12-tang-2"  compas_flpl="0"  />
+    <layer  name="plansm_4"  style="plan_layer"  name_plan="Lầu 3"  plan_ur="04.jpg"  start_scene="scene_20-tang-3"  compas_flpl="0"  />
+
+    <layer  name="pointfr_1"  style="point_fpr"  erscena="scene_2-cong"  x="123"  y="575"  scale="0.41"  heading2="179.75"  nam_plan="plansm_1"  tit_scena="2-cong"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_2"  style="point_fpr"  erscena="scene_3-tang-tret"  x="75"  y="396"  scale="0.41"  heading2="178.51"  nam_plan="plansm_1"  tit_scena="3-tang-tret"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_3"  style="point_fpr"  erscena="scene_4-tang-tret"  x="42"  y="304"  scale="0.41"  heading2="184.46"  nam_plan="plansm_1"  tit_scena="4-tang-tret"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_4"  style="point_fpr"  erscena="scene_5-tang-tret"  x="130"  y="149"  scale="0.41"  heading2="184.71"  nam_plan="plansm_1"  tit_scena="5-tang-tret"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_5"  style="point_fpr"  erscena="scene_6-tang-tret"  x="61"  y="31"  scale="0.41"  heading2="195.07"  nam_plan="plansm_1"  tit_scena="6-tang-tret"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_6"  style="point_fpr"  erscena="scene_7-tang-1"  x="50"  y="206"  scale="0.41"  heading2="185.18"  nam_plan="plansm_2"  tit_scena="7-tang-1"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_7"  style="point_fpr"  erscena="scene_8-tang-1"  x="50"  y="70"  scale="0.41"  heading2="171.59"  nam_plan="plansm_2"  tit_scena="8-tang-1"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_8"  style="point_fpr"  erscena="scene_9-tang-1"  x="33"  y="386"  scale="0.41"  heading2="179.99"  nam_plan="plansm_2"  tit_scena="9-tang-1"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_9"  style="point_fpr"  erscena="scene_10-tang-1"  x="96"  y="298"  scale="0.41"  heading2="184.28"  nam_plan="plansm_2"  tit_scena="10-tang-1"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_10"  style="point_fpr"  erscena="scene_11-tang-1"  x="83"  y="482"  scale="0.41"  heading2="179.13"  nam_plan="plansm_2"  tit_scena="11-tang-1"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_11"  style="point_fpr"  erscena="scene_18-tang-2"  x="104"  y="337"  scale="0.41"  heading2="181.8"  nam_plan="plansm_3"  tit_scena="18-tang-2"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_12"  style="point_fpr"  erscena="scene_19-tang-2"  x="99"  y="298"  scale="0.41"  heading2="181.55"  nam_plan="plansm_3"  tit_scena="19-tang-2"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_13"  style="point_fpr"  erscena="scene_17-tang-2"  x="85"  y="484"  scale="0.41"  heading2="180.13"  nam_plan="plansm_3"  tit_scena="17-tang-2"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_14"  style="point_fpr"  erscena="scene_16-tang-2"  x="45"  y="394"  scale="0.41"  heading2="180"  nam_plan="plansm_3"  tit_scena="16-tang-2"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_15"  style="point_fpr"  erscena="scene_12-tang-2"  x="67"  y="210"  scale="0.41"  heading2="192.28"  nam_plan="plansm_3"  tit_scena="12-tang-2"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_16"  style="point_fpr"  erscena="scene_13-tang-2"  x="68"  y="120"  scale="0.41"  heading2="180.24"  nam_plan="plansm_3"  tit_scena="13-tang-2"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_17"  style="point_fpr"  erscena="scene_15-tang-2"  x="41"  y="74"  scale="0.41"  heading2="180.49"  nam_plan="plansm_3"  tit_scena="15-tang-2"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_18"  style="point_fpr"  erscena="scene_14-tang-2"  x="89"  y="20"  scale="0.41"  heading2="-6.95"  nam_plan="plansm_3"  tit_scena="14-tang-2"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_19"  style="point_fpr"  erscena="scene_20-tang-3"  x="60"  y="201"  scale="0.41"  heading2="178.26"  nam_plan="plansm_4"  tit_scena="20-tang-3"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_20"  style="point_fpr"  erscena="scene_23-tang-3"  x="50"  y="102"  scale="0.41"  heading2="178.01"  nam_plan="plansm_4"  tit_scena="23-tang-3"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_21"  style="point_fpr"  erscena="scene_24-tang-3"  x="108"  y="121"  scale="0.41"  heading2="287.65"  nam_plan="plansm_4"  tit_scena="24-tang-3"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_22"  style="point_fpr"  erscena="scene_22-tang-3"  x="89"  y="481"  scale="0.41"  heading2="179.88"  nam_plan="plansm_4"  tit_scena="22-tang-3"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+    <layer  name="pointfr_23"  style="point_fpr"  erscena="scene_21-tang-3"  x="74"  y="358"  scale="0.41"  heading2="179.63"  nam_plan="plansm_4"  tit_scena="21-tang-3"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+
+	<!-- no viewpoints  --> 
+
+   <layer  name="top_container_plan"  type="container"  keep="true"  enabled="true"  alpha="0"  align="lefttop"  x="1370"  y="15"  width="174"  height="26"  maskchildren="false"  zorder="50" 
+ 			ox="0"  oy="-0.93"  bgcolor="NaN"  bgalpha="0.43"  bgcapture="true"  bgborder="0,0,0,0 0xE7FF00 1.00"  bgshadow="0 5 16 0 0x0B0B0B 0.34"  bgroundedge="0 0 0 0" 
+ 			onhover=""  onout=""  ondown="drag_plan();"  />
+
+   <layer  name="container_plan1"  type="container"  keep="true"  enabled="true"  alpha="0"  align="lefttop"  x="1370"  y="41"  width="174"  height="518"  maskchildren="true"  zorder="49" 
+ 			ox="0"  oy="0"  bgcolor="19526"  bgalpha="0.55"  bgcapture="true"  bgborder="0,0,0,0 0xE6FF00 0.00"  bgshadow="2 5 10 4 0x1D1D1D 0.49"  bgroundedge="0 0 0 0" 
+ 			onhover="set(maschtab,true); "  onout="set(maschtab,false);"  ondown="0"  />
+
+
+</krpano>

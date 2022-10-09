@@ -1,0 +1,52 @@
+<krapano>
+
+    <!-- Tạo ô chuyển scene -->
+    <hotspot name="spot1" style="skin_hotspotstyle" ath="-3.532" atv="23.880" linkedscene="scene_can1!01!cong!2" />
+
+
+    <!-- Vtourskin -->
+    <!-- skin_hotspotstyle - style for the hotspots -->
+	<style name="skin_hotspotstyle" url="vtourskin_hotspot.png" edge="top" distorted="true"
+    tooltip=""
+    linkedscene=""
+    linkedscene_lookat=""
+    onclick="skin_hotspotstyle_click();"
+    depth="1000"
+    scale="0.5"
+    onover.addevent="tween(scale,0.55);"
+    onout.addevent="tween(scale,0.5);"
+    onloaded.addevent="skin_hotspotstyle_setup();"
+    />
+
+<action name="skin_hotspotstyle_setup" scope="local">
+ if(isvalue(caller.linkedscene) AND skin_settings.tooltips_hotspots,
+     copy(caller.tooltip, scene[get(caller.linkedscene)].title);
+     caller.loadstyle(skin_tooltips);
+ );
+</action>
+
+<action name="skin_hotspotstyle_click" scope="local">
+ if(isvalue(caller.linkedscene),
+     copy(hs_linkedscene, caller.linkedscene);
+     if(caller.linkedscene_lookat, txtsplit(caller.linkedscene_lookat, ',', hs_lookat_h, hs_lookat_v, hs_lookat_fov); );
+     set(caller.enabled, false);
+     skin_hidetooltips();
+     tween(caller.depth|caller.alpha|caller.oy|caller.rx, 4000|0.0|-50|-60, 0.5, default,
+         skin_loadscene(get(hs_linkedscene), get(skin_settings.loadscene_blend));
+         if(hs_lookat_h !== null, skin_lookat(get(hs_lookat_h), get(hs_lookat_v), get(hs_lookat_fov)); );
+         skin_updatescroll();
+     );
+ );
+
+ <!--  Xử lí các mouseevent chuyển scene-->
+ <!-- include vào tour.xml -->
+<include url="plugins/garrows/garrows_settings.xml" />
+<include url="plugins/garrows/garrows.xml" />
+<include url="plugins/gtransition/gtransition_settings.xml" />
+<include url="plugins/gtransition/gtransition.xml" />
+
+<!-- Floor plan -->
+
+
+</action>
+</krapano>

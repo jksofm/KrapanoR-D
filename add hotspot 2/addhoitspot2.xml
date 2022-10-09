@@ -1,0 +1,50 @@
+<krapano>
+    <!-- Add plugin cho file xml -->
+    <include url="add_hotspot/plugins_l/add_hotspot.xml" />
+    <!-- Add plugin cho file save_hotspot.xml -->
+    <include url="plugins_l/plugin_a/photo.xml" />
+    <include url="plugins_l/plugin_a/youtube.xml" />
+    <include url="plugins_l/plugin_a/video.xml" />
+    <include url="plugins_l/plugin_a/poligon.xml" />
+
+    <addhs_settings pin_cod="" sound_close_click="true" video_close_click="true" youtube_close_click="true" FIRSTXML="tour" path="%FIRSTXML%/" action_list="'add_hotspot/plugins_l/actionSM.html'" photo="true" video="true" youtube="true" />
+
+    <!-- Hot sspot tên đường  -->
+
+    <hotspot name="hotspot_1" style="text_hs_sm" type="text" keep="true" distorted="true" capture="false" handcursor="false" zorder="6" ath="-152.4156" atv="31.4295" width="250" height="46" rx="-11.84" ry="3.32" rotate="-14.7" edge="lefttop" css="font-family:Arial; font-size:16px; color:#485D51;" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0" bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.5" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false" install_onclick="12" title="hotspot_1" scene_EL="scene_1!toancanhbuoisang" drag_hs="true" fov_EL="120" enabled2="true" visible2="true" html="Đường Cao Tốc [br] TP.HCM - Long Thành - Dầu Giây" ondown="drag_LinkSM();" />
+
+    <hotspot name="hotspot_5" style="text_hs_sm" type="text" keep="true" distorted="true" capture="false" handcursor="false" zorder="6" ath="-27.7592" atv="52.0526" width="224" height="28" rotate="-39.24" edge="lefttop" css="font-family:Arial; font-size:14px; color: rgba(255,255,255, 0.5);" vcenter="true" padding="5 5 5 5" wordwrap="true" bg="true" bgcolor="0x777777" bgalpha="0" bgborder="1 0xFFFFFF 0" bgroundedge="0 0 0 0" bgshadow="0 0 0 0x000000 0.8" txtshadow="0 0 0 0x000000 0.5" mergedalpha="false" oversampling="2" mipmapping="false" interactivecontent="false" install_onclick="12" title="hotspot_5" scene_EL="scene_1!toancanhbuoisang" drag_hs="true" fov_EL="127.87" enabled2="true" visible2="true" html="Khu Dân Cư Theo Quy Hoạch" ondown="drag_LinkSM();" />
+    <!-- Hotspot show picture -->
+    <hotspot name="hotspot_26" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/nhon-hoi-icon.png" enabled="false" visible="false" zorder="5" ath="-147.13" atv="55.89" width="100" height="prop" scale="0.3" edge="center" install_onclick="5" title="hotspot_26" scene_EL="scene_13!topdown" fov_EL="101.76" enabled2="true" visible2="true" drag_hs="false" onclick="openphotosm(%FIRSTXML%/photo/thumb/cam12.jpg,,80);" onhover="showtext([img src=photo/thumb/cam12.jpg width=200px][/img],VRW_STYLE);" ondown="drag_LinkSM()" />
+
+
+    <!-- Hotspot mặt bằng dự án -->
+    <style name="pl_hs_add_hs" keep="true" enabled2="true" visible2="true" visible="false" alpha="1" alpha2="1" capture="false" handcursor="true" zorder="0" install_onclick="14" fov_EL="90" fillcolor="0xF1836A" fillcolor2="0xFFFFFF" fillalpha="0.00" fillalpha2="0.00" borderwidth="3" borderwidth2="3" bordercolor="0xFFFFFF" bordercolor2="0xF1836A" borderalpha="0.00" borderalpha2="1.00" onover="set_pol_2(get(name));" onout="set_pol_1(get(name));" ondown="ondown_pl_hs();" blendmode="normal" group="null" />
+    <hotspot name="hs_polig_5" style="pl_hs_add_hs" title="hs_polig_5" scene_EL="scene_13!topdown" onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKG1.1.jpg,,80);">
+        <point ath="-63.304" atv="80.538" />
+        <point ath="-71.002" atv="80.734" />
+        <point ath="-76.014" atv="81.547" />
+        <point ath="-77.428" atv="84.471" />
+        <point ath="-55.648" atv="84.225" />
+    </hotspot>
+
+    <hotspot name="hs_polig_6" style="pl_hs_add_hs" title="hs_polig_6" scene_EL="scene_13!topdown" onclick="openphotosm(%FIRSTXML%/add_hotspot/photo/LKB1.1m.jpg,,80);">
+        <point ath="-3.561" atv="76.649" />
+        <point ath="-1.728" atv="75.451" />
+        <point ath="12.375" atv="76.074" />
+        <point ath="12.1" atv="77.412" />
+    </hotspot>
+
+
+    <!-- Lệnh Hideskin -->
+
+    <!-- startup action - here the first pano/scene will be loaded -->
+    <action name="startup" autorun="onstart">
+if(startscene === null, copy(startscene,scene[0].name));
+loadscene(get(startscene), null, MERGE);
+delayedcall(0, skin_hideskin() );
+</action>
+
+    <!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+
+</krapano>

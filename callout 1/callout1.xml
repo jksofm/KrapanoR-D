@@ -1,0 +1,48 @@
+<krpano>
+	<include url="%SWFPATH%/module/callout.xml"/>
+
+
+
+    <callout 
+			key="U2FsdGVkX1+ERv32PI3rx8NGOPISwbGkhWEACPGWCeg=" 
+			size="10" 
+			color="0xffffff"
+			rotate="0"
+			distancepopup="3"   
+			min_fov="180" 
+			max_fov="0" 
+			line_lenght="100"
+			line_width="2" 
+			shape="round"
+			circle_active_width="10"
+			animation="center_screen" 
+			text_width="300"
+			callout_bg_border="0,0,0,2"
+			text_x="10"
+			css_title="color:#FFFFFF;font-size:10px;font-weight:bold; font-family:Montserrat;"
+			css_text="color:#fff;font-size:12px;text-shadow: 3px 3px 8px #000000;"
+			title_background="0xF1836A"
+			text_background=""
+			title_padding="6.5"
+			text_padding="10 10 0 0"
+		/>
+
+        <hotspot name="hp12"
+        ath="-23.38" atv="5.80"
+        style="callout"
+      title="Khu Dân Cư Verosa Park"
+      text_x="0"
+      onclick=""
+      rotate="0"
+      callout_bg_border="1.5"
+       line_lenght="90"
+  />
+
+
+  <!-- GOKU - Show ath atv onclick event - Begin -->
+<!-- <events onclick="screentosphere(mouse.x, mouse.y, m_ath, m_atv); showlog(); trace('clicked at ath=',m_ath,' atv=',m_atv);" /> -->
+<!-- GOKU - Show ath atv onclick event - End  -->
+
+
+
+</krpano>

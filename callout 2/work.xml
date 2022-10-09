@@ -1,0 +1,46 @@
+﻿<krpano>
+ 
+	<!-- Style hotspot --> 
+	<style name="flag_icon" keep="false" type="image" url="%FIRSTXML%/icons/line.png" width="prop" height="100" edge="bottom" capture="false" handcursor="false" 
+		title="77" icon="true"
+		onloaded="create_ichs();"
+	/>
+	
+	<!-- Text style -->         		   
+	<style name="text_hsic" keep="false" type="text" x="0" y="0" padding="5 10" align="top" edge="bottom" enabled="false" 
+			css="font-family:Verdana; color:#FFFFFF; font-size:14px;" 
+			background="true" backgroundcolor="0x2D3E50" backgroundalpha="0.7"			   
+			bgroundedge="3" bgborder="0 0x000000 0" bgbordercolor="0x2D3E50" bgborderwidth="0" wordwrap="true" 
+			shadow="5.0"  shadowrange="3.0"  shadowangle="45"  shadowcolor="0x2D3E50"  shadowalpha="0"
+			txtshadow="1 1 3 0x000000 0.9" 
+	/>
+	
+	<!-- Icon style -->         		   
+	<style name="ic_hsic" keep="false" type="image" x="0" y="0" align="left" edge="right" height="100%" width="prop" enabled="false" 
+		background="true" backgroundcolor="0x2D3E50" backgroundalpha="0.7"	
+		bgroundedge="3" bgborder="0 0x000000 0" bgbordercolor="0x2D3E50" bgborderwidth="0" wordwrap="true" 
+		shadow="5.0"  shadowrange="3.0"  shadowangle="45"  shadowcolor="0x2D3E50"  shadowalpha="0"
+		txtshadow="1 1 3 0x000000 0.9" 
+	/>
+		  
+	
+	<!-- create a hotspot -->
+    <action name="create_ichs" scope="local" args="st, crop"  >  
+		calc(txths, caller.name + 'txt');
+		addlayer(get(txths), tx);
+		tx.loadstyle('text_hsic');
+		copy(tx.html, caller.title);
+		calc(tx.parent, 'hotspot[' + caller.name + ']');
+		
+		calc(ichs, caller.name + 'ic');
+		addlayer(get(ichs), ic);
+		 
+		ic.loadstyle('ic_hsic');
+		copy(ic.url, caller.icon);
+		copy(ic.parent, txths);
+		
+	</action>
+	
+	
+
+</krpano>

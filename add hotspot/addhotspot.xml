@@ -1,0 +1,28 @@
+<krpano>
+    <!-- Dùng để add text cho tooltip hover -->
+    <include url="skin/texthotspot.xml" devices="desktop|table"/>
+	<include url="skin/texthotspot_mobile.xml" devices="mobile"/>
+<!-- Dùng để tạo tooltip sẵn cho hospot -->
+	<include url="%SWFPATH%/module/placehotspot/placehotspot.xml"/>
+    <!-- Dùng để làm hình ảnh cho hotspot -->
+	<include url="%SWFPATH%/module/imghotspot/imghotspot.xml"/>
+
+
+<!-- Thêm vào scene muốn tạo hotspot -->
+    <events name=""
+    onloadcomplete="
+                    create_hs_back(scene_3!congvao,hotspot1,-26.120,20.710,0);
+                    create_hs_back(scene_2!toancanhbuoitoi,hotspot1,-12.350,16.040,0);
+                    create_hs_back(scene_13!topdown,hotspot1,-42.030,24.840,0);
+                    
+                    
+                    
+                    
+                    
+                    
+                    "
+                    />
+
+
+
+</krpano>

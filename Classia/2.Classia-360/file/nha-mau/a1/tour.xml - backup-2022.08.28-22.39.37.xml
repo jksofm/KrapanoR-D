@@ -1,0 +1,684 @@
+﻿<krpano version="1.20.11" title="Virtual Tour">
+
+
+	<include url="skin/vtourskin.xml" />
+	<include url="floorplan_SM/editor/floorplan_SM.xml" />
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+
+	<!-- startup action - here the first pano/scene will be loaded -->
+	<action name="startup" autorun="onstart">
+	    if(startscene === null, copy(startscene,scene[0].name));
+	    loadscene(get(startscene), null, MERGE);
+	    delayedcall(0, skin_hideskin() );
+	</action>
+
+	
+	<scene name="scene_can1!01!cong!1" title="can1!01!cong!1" onstart="" thumburl="panos/can1!01!cong!1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!01!cong!1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!01!cong!1.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-3.532" atv="23.880" linkedscene="scene_can1!01!cong!2" />
+
+	</scene>
+
+	<scene name="scene_can1!01!cong!2" title="can1!01!cong!2" onstart="" thumburl="panos/can1!01!cong!2.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!01!cong!2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!01!cong!2.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="177.177" atv="33.288" linkedscene="scene_can1!01!cong!1" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="19.666" atv="30.953" linkedscene="scene_can1!01!cong!3" />
+
+	</scene>
+
+	<scene name="scene_can1!01!cong!3" title="can1!01!cong!3" onstart="" thumburl="panos/can1!01!cong!3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!01!cong!3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!01!cong!3.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-97.046" atv="31.994" linkedscene="scene_can1!01!cong!2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="20.041" atv="33.344" linkedscene="scene_can1!1!cua_vao" />
+
+	</scene>
+
+	<scene name="scene_can1!1!cua_vao" title="can1!1!cua vao" onstart="" thumburl="panos/can1!1!cua_vao.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!1!cua_vao.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!1!cua_vao.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="178.440" atv="39.041" linkedscene="scene_can1!01!cong!3" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-32.712" atv="30.590" linkedscene="scene_can1!2!phong_khach" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-83.976" atv="22.385" linkedscene="scene_cau-thang-01" />
+
+	</scene>
+
+	<scene name="scene_can1!10!phong_ngu_master" title="can1!10!phong ngu master" onstart="" thumburl="panos/can1!10!phong_ngu_master.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!10!phong_ngu_master.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!10!phong_ngu_master.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="9.200" atv="36.414" linkedscene="scene_can1!11!phong_ngu_master" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="179.588" atv="33.946" linkedscene="scene_can1!9!phong_ngu_master" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-88.842" atv="42.708" linkedscene="scene_can1!7!phong_ngu_master" />
+
+	</scene>
+
+	<scene name="scene_can1!11!phong_ngu_master" title="can1!11!phong ngu master" onstart="" thumburl="panos/can1!11!phong_ngu_master.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!11!phong_ngu_master.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!11!phong_ngu_master.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-164.370" atv="38.054" linkedscene="scene_can1!10!phong_ngu_master" />
+
+	</scene>
+
+	<scene name="scene_can1!12!phong_lam_viec" title="can1!12!phong lam viec" onstart="" thumburl="panos/can1!12!phong_lam_viec.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!12!phong_lam_viec.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!12!phong_lam_viec.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="95.406" atv="25.710" linkedscene="scene_can1!13!phong_lam_viec" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-170.467" atv="34.647" linkedscene="scene_can1!6!hanh_lang" />
+
+	</scene>
+
+	<scene name="scene_can1!13!phong_lam_viec" title="can1!13!phong lam viec" onstart="" thumburl="panos/can1!13!phong_lam_viec.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!13!phong_lam_viec.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!13!phong_lam_viec.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-87.626" atv="35.094" linkedscene="scene_can1!12!phong_lam_viec" />
+
+	</scene>
+
+	<scene name="scene_can1!14!hanh_lang" title="can1!14!hanh lang" onstart="" thumburl="panos/can1!14!hanh_lang.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!14!hanh_lang.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!14!hanh_lang.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="1.175" atv="29.033" linkedscene="scene_can1!15!phong_ngu_1" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-178.732" atv="31.589" linkedscene="scene_can1!20!phong_ngu_2" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-35.092" atv="41.317" linkedscene="scene_cau-thang-04" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-134.497" atv="27.136" linkedscene="scene_cau-thang-05" />
+
+	</scene>
+
+	<scene name="scene_can1!15!phong_ngu_1" title="can1!15!phong ngu 1" onstart="" thumburl="panos/can1!15!phong_ngu_1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!15!phong_ngu_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!15!phong_ngu_1.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-12.112" atv="42.232" linkedscene="scene_can1!16!phong_ngu_1" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="84.252" atv="40.889" linkedscene="scene_can1!17!phong_ngu_1" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-179.971" atv="34.185" linkedscene="scene_can1!14!hanh_lang" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-90.764" atv="36.958" linkedscene="scene_can1!19!phong_ngu_1" />
+
+	</scene>
+
+	<scene name="scene_can1!16!phong_ngu_1" title="can1!16!phong ngu 1" onstart="" thumburl="panos/can1!16!phong_ngu_1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!16!phong_ngu_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!16!phong_ngu_1.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="168.426" atv="29.136" linkedscene="scene_can1!15!phong_ngu_1" />
+
+	</scene>
+
+	<scene name="scene_can1!17!phong_ngu_1" title="can1!17!phong ngu 1" onstart="" thumburl="panos/can1!17!phong_ngu_1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!17!phong_ngu_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!17!phong_ngu_1.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="56.070" atv="45.512" linkedscene="scene_can1!18!phong_ngu_1" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-94.611" atv="38.538" linkedscene="scene_can1!15!phong_ngu_1" />
+
+	</scene>
+
+	<scene name="scene_can1!18!phong_ngu_1" title="can1!18!phong ngu 1" onstart="" thumburl="panos/can1!18!phong_ngu_1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!18!phong_ngu_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!18!phong_ngu_1.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-118.823" atv="34.866" linkedscene="scene_can1!17!phong_ngu_1" />
+
+	</scene>
+
+	<scene name="scene_can1!19!phong_ngu_1" title="can1!19!phong ngu 1" onstart="" thumburl="panos/can1!19!phong_ngu_1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!19!phong_ngu_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!19!phong_ngu_1.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="88.809" atv="43.333" linkedscene="scene_can1!15!phong_ngu_1" />
+
+	</scene>
+
+	<scene name="scene_can1!2!phong_khach" title="can1!2!phong khach" onstart="" thumburl="panos/can1!2!phong_khach.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!2!phong_khach.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!2!phong_khach.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="153.589" atv="25.129" linkedscene="scene_can1!1!cua_vao" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="4.162" atv="35.483" linkedscene="scene_can1!3!bep" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-158.264" atv="20.965" linkedscene="scene_cau-thang-01" />
+
+	</scene>
+
+	<scene name="scene_can1!20!phong_ngu_2" title="can1!20!phong ngu 2" onstart="" thumburl="panos/can1!20!phong_ngu_2.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!20!phong_ngu_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!20!phong_ngu_2.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-4.195" atv="35.736" linkedscene="scene_can1!14!hanh_lang" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="129.296" atv="41.399" linkedscene="scene_can1!21!phong_ngu_2" />
+
+	</scene>
+
+	<scene name="scene_can1!21!phong_ngu_2" title="can1!21!phong ngu 2" onstart="" thumburl="panos/can1!21!phong_ngu_2.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!21!phong_ngu_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!21!phong_ngu_2.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-17.796" atv="35.778" linkedscene="scene_can1!20!phong_ngu_2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="157.310" atv="42.800" linkedscene="scene_can1!22!phong_ngu_2" />
+
+	</scene>
+
+	<scene name="scene_can1!22!phong_ngu_2" title="can1!22!phong ngu 2" onstart="" thumburl="panos/can1!22!phong_ngu_2.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!22!phong_ngu_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!22!phong_ngu_2.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-80.071" atv="29.626" linkedscene="scene_can1!23!phong_ngu_2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-17.231" atv="44.120" linkedscene="scene_can1!21!phong_ngu_2" />
+
+	</scene>
+
+	<scene name="scene_can1!23!phong_ngu_2" title="can1!23!phong ngu 2" onstart="" thumburl="panos/can1!23!phong_ngu_2.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!23!phong_ngu_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!23!phong_ngu_2.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="47.368" atv="29.427" linkedscene="scene_can1!21!phong_ngu_2" />
+
+	</scene>
+
+	<scene name="scene_can1!24!hanh_lang" title="can1!24!hanh lang" onstart="" thumburl="panos/can1!24!hanh_lang.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!24!hanh_lang.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!24!hanh_lang.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-2.758" atv="29.978" linkedscene="scene_can1!25!phong_treo_do" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-179.589" atv="29.581" linkedscene="scene_can1!26!phong_dan" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-79.097" atv="37.857" linkedscene="scene_cau-thang-06" />
+
+	</scene>
+
+	<scene name="scene_can1!25!phong_treo_do" title="can1!25!phong treo do" onstart="" thumburl="panos/can1!25!phong_treo_do.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!25!phong_treo_do.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!25!phong_treo_do.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-179.661" atv="22.647" linkedscene="scene_can1!24!hanh_lang" />
+
+	</scene>
+
+	<scene name="scene_can1!26!phong_dan" title="can1!26!phong dan" onstart="" thumburl="panos/can1!26!phong_dan.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!26!phong_dan.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!26!phong_dan.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="177.698" atv="35.619" linkedscene="scene_can1!27!phong_dan" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.463" atv="27.183" linkedscene="scene_can1!24!hanh_lang" />
+
+	</scene>
+
+	<scene name="scene_can1!27!phong_dan" title="can1!27!phong dan" onstart="" thumburl="panos/can1!27!phong_dan.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!27!phong_dan.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!27!phong_dan.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-84.203" atv="33.666" linkedscene="scene_can1!28!phong_dan" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-3.733" atv="31.854" linkedscene="scene_can1!26!phong_dan" />
+
+	</scene>
+
+	<scene name="scene_can1!28!phong_dan" title="can1!28!phong dan" onstart="" thumburl="panos/can1!28!phong_dan.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!28!phong_dan.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!28!phong_dan.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="87.423" atv="31.646" linkedscene="scene_can1!27!phong_dan" />
+
+	</scene>
+
+	<scene name="scene_can1!3!bep" title="can1!3!bep" onstart="" thumburl="panos/can1!3!bep.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!3!bep.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!3!bep.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-161.738" atv="32.666" linkedscene="scene_can1!2!phong_khach" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="1.906" atv="30.428" linkedscene="scene_can1!4!bep" />
+
+	</scene>
+
+	<scene name="scene_can1!4!bep" title="can1!4!bep" onstart="" thumburl="panos/can1!4!bep.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!4!bep.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!4!bep.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-179.499" atv="32.118" linkedscene="scene_can1!3!bep" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-96.165" atv="43.814" linkedscene="scene_can1!5!bep" />
+
+	</scene>
+
+	<scene name="scene_can1!5!bep" title="can1!5!bep" onstart="" thumburl="panos/can1!5!bep.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!5!bep.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!5!bep.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="54.948" atv="37.422" linkedscene="scene_can1!4!bep" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="162.094" atv="41.679" linkedscene="scene_can1!3!bep" />
+
+	</scene>
+
+	<scene name="scene_can1!6!hanh_lang" title="can1!6!hanh lang" onstart="" thumburl="panos/can1!6!hanh_lang.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!6!hanh_lang.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!6!hanh_lang.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="2.064" atv="30.869" linkedscene="scene_can1!12!phong_lam_viec" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="179.367" atv="28.441" linkedscene="scene_can1!7!phong_ngu_master" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-64.138" atv="39.006" linkedscene="scene_cau-thang-02" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-128.697" atv="12.768" linkedscene="scene_cau-thang-03" />
+
+	</scene>
+
+	<scene name="scene_can1!7!phong_ngu_master" title="can1!7!phong ngu master" onstart="" thumburl="panos/can1!7!phong_ngu_master.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!7!phong_ngu_master.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!7!phong_ngu_master.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-173.561" atv="33.884" linkedscene="scene_can1!8!phong_ngu_master" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="88.661" atv="42.749" linkedscene="scene_can1!10!phong_ngu_master" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="0.474" atv="27.888" linkedscene="scene_can1!6!hanh_lang" />
+
+	</scene>
+
+	<scene name="scene_can1!8!phong_ngu_master" title="can1!8!phong ngu master" onstart="" thumburl="panos/can1!8!phong_ngu_master.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!8!phong_ngu_master.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!8!phong_ngu_master.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="90.499" atv="35.561" linkedscene="scene_can1!9!phong_ngu_master" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="3.042" atv="28.675" linkedscene="scene_can1!7!phong_ngu_master" />
+
+	</scene>
+
+	<scene name="scene_can1!9!phong_ngu_master" title="can1!9!phong ngu master" onstart="" thumburl="panos/can1!9!phong_ngu_master.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/can1!9!phong_ngu_master.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/can1!9!phong_ngu_master.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="39.498" atv="28.548" linkedscene="scene_can1!10!phong_ngu_master" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-30.645" atv="31.402" linkedscene="scene_can1!8!phong_ngu_master" />
+
+	</scene>
+
+	<scene name="scene_cau-thang-01" title="cau-thang-01" onstart="" thumburl="panos/cau-thang-01.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/cau-thang-01.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/cau-thang-01.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="96.615" atv="30.145" linkedscene="scene_can1!1!cua_vao" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="34.978" atv="43.212" linkedscene="scene_can1!2!phong_khach" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-15.479" atv="5.134" linkedscene="scene_cau-thang-02" />
+
+	</scene>
+
+	<scene name="scene_cau-thang-02" title="cau-thang-02" onstart="" thumburl="panos/cau-thang-02.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/cau-thang-02.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/cau-thang-02.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-177.613" atv="56.397" linkedscene="scene_cau-thang-01" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="96.251" atv="16.456" linkedscene="scene_cau-thang-03" />
+
+	</scene>
+
+	<scene name="scene_cau-thang-03" title="cau-thang-03" onstart="" thumburl="panos/cau-thang-03.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/cau-thang-03.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/cau-thang-03.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="88.689" atv="61.593" linkedscene="scene_can1!6!hanh_lang" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-1.945" atv="11.570" linkedscene="scene_cau-thang-04" />
+
+	</scene>
+
+	<scene name="scene_cau-thang-04" title="cau-thang-04" onstart="" thumburl="panos/cau-thang-04.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/cau-thang-04.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/cau-thang-04.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-179.218" atv="61.038" linkedscene="scene_cau-thang-03" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="96.688" atv="-2.899" linkedscene="scene_cau-thang-05" />
+
+	</scene>
+
+	<scene name="scene_cau-thang-05" title="cau-thang-05" onstart="" thumburl="panos/cau-thang-05.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/cau-thang-05.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/cau-thang-05.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="84.018" atv="58.231" linkedscene="scene_can1!14!hanh_lang" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-3.536" atv="11.751" linkedscene="scene_cau-thang-06" />
+
+	</scene>
+
+	<scene name="scene_cau-thang-06" title="cau-thang-06" onstart="" thumburl="panos/cau-thang-06.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/cau-thang-06.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/cau-thang-06.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="173.762" atv="59.757" linkedscene="scene_cau-thang-05" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="92.984" atv="9.526" linkedscene="scene_can1!24!hanh_lang" />
+
+	</scene>
+
+<!--
+<include url="plugins/garrows/garrows_settings.xml" />
+<include url="plugins/garrows/garrows.xml" />
+<include url="plugins/gtransition/gtransition_settings.xml" />
+<include url="plugins/gtransition/gtransition.xml" />
+-->
+
+</krpano>

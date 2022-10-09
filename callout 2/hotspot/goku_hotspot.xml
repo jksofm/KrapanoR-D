@@ -1,0 +1,152 @@
+<krpano>
+
+<action name="create_hs_back" scope="global">
+		addhotspot(%1);
+		copy(hs,hotspot[%1]);
+		
+		hs.loadstyle(hs_default|%2);
+		set(hs.ath,%3);
+		set(hs.capture,0);
+		set(hs.visible,0);
+		set(hs.hscene,%1);
+		set(hs.showal,1);
+		set(hs.atv,%4);
+		set(hs.onclick,	
+		set(layer[hs_tooltip_container].visible,false);
+		wait(.5);
+		loadscene(get(name),null, MERGE, BLEND(1.0, easeInCubic));
+		);
+		txtadd(temp_hs1,%1,_new_home);
+		if(%6,add_hs(get(temp_hs1),%3,%4,%6,-50);,add_hs(get(temp_hs1),%3,%4,40,-50););
+		if(%6,add_tien_ich_n(get(temp_hs1),get(scene[%1].title),%7,0);,add_tien_ich_n(get(temp_hs1),get(scene[%1].title),center,0););
+		
+	</action>
+
+	<style name="hotspot1"
+		scale=".5"
+	   	scale.touch=".5"
+	   	distorted="false"
+	  	edge="bottom"
+	   	oy="0"
+        url="img/icon/map_marker.png"
+        onloaded="animation();"
+      	animation="tween(oy, calc(3 - oy), 0.3, easeoutbounce, animation());"
+	/>
+
+	<style name="hs_default"
+	onhover="	txtadd(temp_hs1,get(name),_home);
+			    tween(hotspot[get(temp_hs1)].alpha,0,.1);
+	   			txtadd(xxt,'hs_tien_ich_',get(xml.scene));
+			    set(hotspot[home].visible,0);
+			 	removehs(get(xxt));
+	   			set(hotspot[hs_ao].ath,get(hotspot[get(name)].ath));
+	   			set(hotspot[hs_ao].atv,get(hotspot[get(name)].atv));
+	   			txtadd(layer[hs_tooltip_container].parent,'hotspot[hs_ao]');
+	   			txtadd(layer[hs_tooltip].url,'panos/',get(name),'/thumb.jpg');
+
+				if(
+					language==vi, txtadd(texths,'',get(scene[get(name)].title)),
+					language==en, txtadd(texths,'',get(scene[get(name)].entitle)),
+					
+				);
+
+	   			set(layer[text_hs].html,get(texths));
+	   			set(layer[text_hs].zoder,200);
+	   			
+			 tween(layer[hs_tooltip_container].y,60,.1,easeoutinquint);
+				set(layer[hs_tooltip_container].visible,true);	
+			    tween(scale,0.55,0.1);
+			 	
+	   			"
+	   onout="  set(hotspot[home].visible,1);
+	   			txtadd(xxt,hs_tien_ich_,get(xml.scene));
+			    add_hs_again(get(xxt));
+	   			 tween(hotspot[get(temp_hs1)].alpha,1,.1);
+				
+				tween(layer[hs_tooltip_container].y,500,.5,easeinoutcirc);
+			  
+				delayedcall(.2,set(layer[hs_tooltip_container].visible,false);set(layer[text_hs].html,););
+				
+			   tween(scale,0.5,0.1);
+	   			"
+	   onclick="
+	       	"
+	   onloaded="asyncloop(hovering, add(zorder,100), sub(zorder,100))"
+	/>
+
+	<action name="add_hs_again">
+	
+	for(set(i,0),i LT hotspot.count, inc(i),
+		if(hotspot[get(i)].showh,tween(hotspot[get(i)].visible,1,0););	
+	 
+		);
+		
+	</action>
+
+	<action name="removehs">
+		for(set(i,0),i LT hotspot.count, inc(i),
+		if(hotspot[get(i)].showh,tween(hotspot[get(i)].visible,0,0););	
+		 
+			);
+		 
+		tween(hotspot[get(name)].alpha,1);
+		tween(hotspot[hs_ao].visible,1,0);
+	</action>
+
+	<action name="add_hs">addhotspot(%1);
+	    copy(hs,hotspot[%1]);
+	    hs.loadstyle(hs_trait);
+	    set(hs.ath,%2);
+	    set(hs.atv,%3);
+	    set(hs.zoder,-1);
+	    set(hs.showh,1);
+		set(edge,bottom);
+	    if(%4,set(hs.height,%4);
+		 set(hs.n_height,%4););  
+	    if(%5,set(hs.oy,-40));
+		set(hs.hstype,callout);  
+	</action>
+
+	<action name="add_tien_ich_n">
+		addlayer(%1);
+	    copy(ti,layer[%1]);
+	  	ti.loadstyle(help_ghichu);
+	    set(ti.parent,hotspot[%1]);
+	    set(ti.html,%2);
+	    set(ti.edge,%3);
+	    set(ti.zoder,-1);
+	    set(ti.ox,%4);
+	</action>
+
+	<style name="hs_trait" url="img/icon/trait.png" oy="0" show="true" width="drop" height="90" scale="1.5" edge="bottomleft" zoder="-1000" rotate="0"  enabled="true" alpha="0" onloaded="callout()" callout="if((ath LT calc(view.hlookat+30)) AND (ath GT calc(view.hlookat-30)),tween(alpha,1,.5);tween(height,get(n_height),.3,easeoutsine,callout()); ,  tween(alpha,0,.2);tween(height,0,.3,easeoutsine,callout()); );"	 
+	/>
+
+	<style name="help_ghichu" rotate="0"  zoder="0"
+	   url="%SWFPATH%/plugins/textfield.swf"
+	   align="centertop" edge="bottom"   autowidth="true" autoheight="true" vcenter="true"  
+       background="false" backgroundcolor="0x228B22"
+         enabled="false"
+       css="						color:#FFFFFF; 
+									font-family: &#34;Montserrat &#34;,	&#34;Lato	&#34;,sans-serif;
+									font-size:9px;
+									font-weight:bold;
+									text-align:center; 
+										background-color: #495D51;
+									padding:10px;
+									height:auto;
+									border-radius: 10px;
+									border:solid 1px white;"
+		css.mobile="				color:#FFFFFF; 
+									font-family: &#34;Montserrat &#34;,	&#34;Lato	&#34;,sans-serif;
+									font-size:8px;
+									text-align:center; 
+										background-color: #495D51;
+									padding:5px;
+									height:auto;
+									border-radius: 10px;
+									border:solid 1px white;"
+		 
+    	onhover="tween(css,get(skin_setting.design_text_css_m),0)"
+ 	/> 
+
+ 	</krpano>

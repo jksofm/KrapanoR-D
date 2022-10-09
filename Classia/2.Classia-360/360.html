@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/mobile.css" rel="stylesheet">
+    <title>Tour 360 - The Classia</title>
+  </head>
+  <body>
+  <div class="logo"></div>
+  <div class="logo-m"></div>
+
+    <div class="container">
+      <div id="render">
+        <iframe src="file/360/index.html" style="border: 0"></iframe>
+      </div>
+
+      <section class="menu-bottom">
+      <ul class="menu">
+        <li class="menu_item home"><a href="index.html" class="menu-parent">&nbsp;</a></li>
+        <li class="menu_item-space menu_item-tab-5"></li>
+        <li class="menu_item tab-1 active"><a href="360.html" class="menu-parent">Tour 360 </a></li>
+        <li class="menu_item-space"></li>
+        <li class="menu_item tab-7">
+          <a href="javascript:void(0)" class="menu-parent"><span>TIỆN ÍCH 360</span></a>
+          <ul style="display: none">
+              <li><a href="tien-ich.html?startscene=scene_4!khuonvien"><img src="images/icon-tien-ich/tennis.png"/> Toàn cảnh tiện ích</a></li>
+              <li><a href="tien-ich.html?startscene=scene_11!nhadieuhanh"><img src="images/icon-tien-ich/clubhouse.png"/> Nhà điều hành</a></li>
+              <li><a href="tien-ich.html?startscene=scene_10!hoboi"><img src="images/icon-tien-ich/swimming.png"/> Bể bơi</a></li>
+              <li><a href="tien-ich.html?startscene=scene_7!congvienvensong"><img src="images/icon-tien-ich/park.png"/> Công viên ven sông</a></li>
+            </ul>
+        </li>
+        <li class="menu_item-space"></li>
+        <li class="menu_item tab-2"><a href="mat-bang.html" class="menu-parent">Mặt bằng 360 </a></li>
+        <li class="menu_item-space"></li>
+        <li class="menu_item tab-3"><a href="nha-mau.html" class="menu-parent">Nhà mẫu 360 </a></li>
+      </ul>
+    </section>
+
+      <div class="menu-bottom-tablet">
+        <ul class="menu-tablet">
+          <li class="menu_item_tablet tab-tablet-0"><a href="index.html" class="menu-parent-tablet"><span>&nbsp;</span></a></li>
+          <li class="menu_item_tablet-space"></li>
+          <li class="menu_item_tablet tab-tablet-1 active"><a href="360.html" class="menu-parent-tablet"><span>Tour 360</span></a></li>
+          <li class="menu_item_tablet-space"></li>
+          <li class="menu_item_tablet tab-tablet-2">
+            <a href="tien-ich.html" class="menu-parent-tablet"><span>TIỆN ÍCH 360</span></a>
+          </li>
+          <li class="menu_item_tablet-space"></li>
+          <li class="menu_item_tablet tab-tablet-3"><a href="mat-bang.html" class="menu-parent-tablet"><span>Mặt bằng 360</span></a></li>
+          <li class="menu_item_tablet-space"></li>
+          <li class="menu_item_tablet tab-tablet-4"><a href="nha-mau.html" class="menu-parent-tablet"><span>Nhà mẫu 360</span></a></li>
+        </ul>
+      </div>
+
+      <div class="menu-bottom-m">
+      <ul class="menu-m">
+        <li class="menu_item_m tab-m-1 active"><a href="360.html" class="menu-parent-m"><span>Tour 360</span></a></li>
+        <li class="menu_item_m-space"></li>
+        <li class="menu_item_m tab-m-2">
+          <a href="tien-ich.html" class="menu-parent-m"><span>TIỆN ÍCH 360</span></a>
+        </li>
+        <li class="menu_item_m-space"></li>
+        <li class="menu_item_m tab-m-3"><a href="mat-bang.html" class="menu-parent-m"><span>Mặt bằng 360</span></a></li>
+        <li class="menu_item_m-space"></li>
+        <li class="menu_item_m tab-m-4"><a href="nha-mau.html" class="menu-parent-m"><span>Nhà mẫu 360</span></a></li>
+      </ul>
+    </div>
+    </div>
+
+    <div class="overlay" style="display: none;"></div>
+
+    <div class="show-tutorial" style="display: none;">
+      <img src="images/huong-dan-360.png" width="594">
+      <a href="javascript:void(0)" id="hide_overlay_tutorial"></a>
+    </div>
+
+    <div id="app-overlay" style="display: none;"></div>
+    <div class="show-exit-app" id="show-exit-app" style="display: none;">
+      <img src="images/exit-app.png" width="594">
+      <a href="javascript:void(0)" id="app_exit"></a>
+      <a href="javascript:void(0)" id="app_cancel"></a>
+    </div>
+
+    <script src="./renderer.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/360.js"></script>
+    <script src="./js/common.js"></script>
+  </body>
+</html>

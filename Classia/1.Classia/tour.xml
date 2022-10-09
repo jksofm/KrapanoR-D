@@ -1,0 +1,940 @@
+<krpano onstart="playsound(bg, sound/bgsound.mp3,0)" version="1.20.11" title="Virtual Tour">
+
+	<include url="skin/vtourskin.xml" />
+	<incclude url="%SWFPATH%/skin/debug.xml"/>
+	<incclude url="%SWFPATH%/skin/layout.xml"/>
+	<incclude url="%SWFPATH%/skin/skin.xml" />
+	<include url="%SWFPATH%/module/imghotspot/imghotspot.xml"/>
+	<include url="%SWFPATH%/module/placehotspot/placehotspot.xml"/>
+	<include url="skin/texthotspot.xml" devices="desktop|table"/>
+	<include url="skin/texthotspot_mobile.xml" devices="mobile"/>
+	<include url="%SWFPATH%/module/callout.xml"/>
+	<include url="%SWFPATH%/skin/tooltip.xml"/>
+	<include url="%SWFPATH%/skin/gallery.xml"/>
+	<include url="%SWFPATH%/skin/ga.xml"/>
+	<inclsude url="%SWFPATH%/module/thumb/thumb.xml"/>
+	<include url="skin/data.xml" />
+  	<include url="%SWFPATH%/plugins/showtext.xml" />
+  	<include url="%SWFPATH%/skin/tooltip.xml" />
+	<include url="add_hotspot/plugins_l/add_hotspot.xml" />
+	<include url="%SWFPATH%/skin/helptour.xml"/>
+
+
+    
+	
+	<callout 
+			key="U2FsdGVkX1+ERv32PI3rx8NGOPISwbGkhWEACPGWCeg=" 
+			size="10" 
+			color="0xffffff"
+			rotate="0"
+			distancepopup="3"   
+			min_fov="180" 
+			max_fov="0" 
+			line_lenght="100"
+			line_width="2" 
+			shape="round"
+			circle_active_width="10"
+			animation="center_screen" 
+			text_width="300"
+			callout_bg_border="0,0,0,2"
+			text_x="10"
+			css_title="color:#FFFFFF;font-size:10px;font-weight:bold; font-family:Montserrat;"
+			css_text="color:#fff;font-size:12px;text-shadow: 3px 3px 8px #000000;"
+			title_background="0xF1836A"
+			text_background=""
+			title_padding="6.5"
+			text_padding="10 10 0 0"
+		/>
+	<!-- SOUND PLUGIN -->
+	<plugin name="soundinterface"
+        url.html5="plugins/soundinterface.js"
+        url.flash="plugins/soundinterface.swf"
+        preload="true"
+        rootpath=""
+        volume="1.0"
+        mute="false"
+        panningmodel="simple"
+        worldscale="1.0"
+        autopause="true"
+        autounlock="true"
+        />
+	<action name="play">
+ playsound(bg)
+ </action>
+
+ <plugin type="image" keep="true" url="gokuplugin/sound/volume.png" name="sound_on" visible="true"
+	scale="0.18" align="bottomcenter" x="-25" y="55"
+   	alpha="1.0" 
+   	onhover="showtext(Tắt nhạc)" onover="set(alpha,1.0)" onout="set(alpha,0.7)"
+ 	onclick="action(mute); set(plugin[sound_on].visible,false); set(plugin[sound_off].visible,true)"/>
+
+ <plugin type="image" keep="true" name="sound_off" url="gokuplugin/sound/mute.png" visible="false" 
+  scale="0.18"
+  align="bottomcenter" x="-25" y="55"
+  alpha="0.8" 
+  onhover="showtext(Bật nhạc)" onover="set(alpha,1.0)" onout="set(alpha,0.7)"
+ onclick="action(play); set(plugin[sound_off].visible,false); set(plugin[sound_on].visible,true)"/>
+
+ <action name="mute">
+ stopsound(bg)
+ </action>
+    <!-- END SOUND PLUGIN --> 
+	<!-- AUTO ROTATE BUTTON -->
+<plugin name="autorotate_off"
+		visible="true"
+		keep="true"
+        url="photo/autorotate.png"
+        scale="0.18" align="bottomrcenter" x="25" y="55"
+        onhover="showtext(Tắt tự động xoay)"
+        onover="set(alpha,1.0)" onout="set(alpha,0.7)"
+        onclick="switch(autorotate.enabled);
+        set(plugin[autorotate_off].visible,false);
+        set(plugin[autorotate_on].visible,true)"
+
+        />
+
+<plugin name="autorotate_on"
+		visible="false"
+		keep="true"
+		scale="0.18" align="bottomcenter" x="25" y="55"
+        url="photo/autorotateoff.png"
+        onhover="showtext(Bật tự động xoay)"
+        onover="set(alpha,1.0)" onout="set(alpha,0.7)"
+        onclick="switch(autorotate.enabled);
+        set(plugin[autorotate_on].visible,false);
+        set(plugin[autorotate_off].visible,true)"
+        />
+ <!--AUTO ROTATE BUTTON END -->
+	<!-- GOKU BUTTON: TOAN CANH DU AN BUTTON (BEGIN) -->
+
+	
+
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="true"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="true"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Montserrat;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+
+
+	
+		<!-- *** add hotspt *** -->
+
+	<editor_hs pin="off" />
+
+	<include url="%FIRSTXML%/add_hotspot/plugins_l/plugin_a/poligon.xml"/>
+
+<scene name="scene_1!toancanhbuoisang" title="Toàn Cảnh Buổi Sáng" onstart="" thumburl="panos/1!toancanhbuoisang.tiles/thumb.jpg" lat="10.36295639" lng="107.06093750" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat ="-42.34" vlookat ="31.04" fovtype="MFOV" fov="120.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/1!toancanhbuoisang.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/1!toancanhbuoisang.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						create_hs_back(scene_3!congvao,hotspot1,-26.120,20.710,0);
+						create_hs_back(scene_2!toancanhbuoitoi,hotspot1,-12.350,16.040,0);
+						create_hs_back(scene_13!topdown,hotspot1,-42.030,24.840,0);
+						
+						
+						
+						
+						
+						
+						"
+						/>
+	
+	
+
+	<hotspot name="hp2"
+		  	ath="-20.12" atv="12.97"
+		  	style="callout"
+			title="Khu dân cư Lucasta"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+		/>
+
+	<hotspot name="hp3"
+		  	ath="-51.71" atv="7.88"
+		  	style="callout"
+			title="Căn hộ SAFIRA"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="50"
+		/>
+
+
+	
+	<hotspot name="hp12"
+		  	ath="-23.38" atv="5.80"
+		  	style="callout"
+			title="Khu Dân Cư Verosa Park"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="90"
+		/>
+
+
+	
+<hotspot name="hp8"
+		  	ath="-61.66" atv="13.42"
+		  	style="callout"
+			title="Khu dân cư Mega Sapphire"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="150"
+		/>
+
+	<hotspot name="hp7"
+		  	ath="-69.63" atv="15.12"
+		  	style="callout"
+			title="Khu dân cư Mega Residence"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="120"
+		/>
+
+	
+<hotspot name="hp6"
+		  	ath="-55.92" atv="20.70"
+		  	style="callout"
+			title="Khu dân cư Mega Ruby"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="120"
+		/>
+
+	<hotspot name="hp9"
+		  	ath="-108.27" atv="4.99"
+		  	style="callout"
+			title="Quận 2"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="80"
+		/>
+
+	<hotspot name="hp10"
+		  	ath="-107.34" atv="0.13"
+		  	style="callout"
+			title="Quận 1"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="80"
+		/>
+
+	<hotspot name="hp11"
+		  	ath="-2.44" atv="11.30"
+		  	style="callout"
+			title="Đường Liên Phường"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="80"
+		/>
+
+	
+
+	
+	
+
+	
+	
+	
+		
+	</scene>
+
+	<scene name="scene_2!toancanhbuoitoi" title="Toàn Cảnh Buổi Tối" onstart="" thumburl="panos/2!toancanhbuoitoi.tiles/thumb.jpg" lat="10.80171778" lng="106.79804167" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat ="0.52" vlookat ="30.06" fovtype="MFOV" fov="127.87" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/2!toancanhbuoitoi.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/2!toancanhbuoitoi.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						create_hs_back(scene_3!congvao,hotspot1,8.360,44.640,0);
+						create_hs_back(scene_1!toancanhbuoisang,hotspot1,-48.570,15.590,0);
+						create_hs_back(scene_13!topdown,hotspot1,-22.050,24.690,0);
+						
+						
+						
+						
+						
+						"
+						/>
+		
+		
+		<hotspot name="hp12"
+		  	ath="-6.42" atv="3.47"
+		  	style="callout"
+			title="Quận 2"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="120"
+		/>
+		<hotspot name="hp13"
+		  	ath="29.93" atv="0.07"
+		  	style="callout"
+			title="Quận 1"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="100"
+		/>
+		<hotspot name="hp14"
+		  	ath="108.35" atv="8.86"
+		  	style="callout"
+			title="Khu Dân Cư Verosa Park"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="60"
+		/>
+		
+		
+		
+
+	<hotspot name="hp2"
+		  	ath="81.95" atv="48.44"
+		  	style="callout"
+			title="Khu dân cư Lucasta"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+		/>
+
+	<hotspot name="hp3"
+		  	ath="37.79" atv="10.62"
+		  	style="callout"
+			title="Căn hộ SAFIRA"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="50"
+		/>
+
+	
+	<hotspot name="hp5"
+		  	ath="72.29" atv="12.06"
+		  	style="callout"
+			title="Vòng Xoay Liên Phường"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="50"
+		/>
+
+
+<hotspot name="hp8"
+		  	ath="5.23" atv="22.46"
+		  	style="callout"
+			title="Khu dân cư Mega Ruby"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="50"
+		/>
+<hotspot name="hp9"
+		  	ath="16.33" atv="14.78"
+		  	style="callout"
+			title="Khu dân cư Mega Residence"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="120"
+		/>
+<hotspot name="hp10"
+		  	ath="26.46" atv="16.24"
+		  	style="callout"
+			title="Khu dân cư Mega Sapphire"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="180"
+		/>
+		
+		
+
+	</scene>
+
+	<scene name="scene_3!congvao" title="Cổng Vào" onstart="" thumburl="panos/3!congvao.tiles/thumb.jpg" lat="10.80085333" lng="106.79683722" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat ="213.30" vlookat ="8.50" fovtype="MFOV" fov="120.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/3!congvao.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/3!congvao.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						create_hs_back(scene_4!khuonvien,hotspot1,31.160,6.270,0);
+						create_hs_back(scene_5!khuonvien,hotspot1,125.000,4.390,0);
+						create_hs_back(scene_6!hoboi,hotspot1,104.740,12.660,0);
+						create_hs_back(scene_7!congvienvensong,hotspot1,-41.420,21.870,0);
+						create_hs_back(scene_1!toancanhbuoisang,hotspot1,75.910,-10.800,0);
+						create_hs_back(scene_2!toancanhbuoitoi,hotspot1,-21.290,-14.420,0);
+						create_hs_back(scene_11!nhadieuhanh,hotspot1,79.790,6.820,0);
+						
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+	</scene>
+
+	<scene name="scene_4!khuonvien" title="Khuôn Viên" onstart="" thumburl="panos/4!khuonvien.tiles/thumb.jpg" lat="10.80074139" lng="106.79731000" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat ="-124.91" vlookat ="15.10" fovtype="MFOV" fov="124.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/4!khuonvien.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/4!khuonvien.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						create_hs_back(scene_8!khuonvien,hotspot1,-78.530,78.660,0);
+						create_hs_back(scene_3!congvao,hotspot1,-76.610,10.750,0);
+						create_hs_back(scene_6!hoboi,hotspot1,-106.540,10.650,0);
+						
+						create_hs_back(scene_1!toancanhbuoisang,hotspot1,159.470,-9.670,0);
+						create_hs_back(scene_2!toancanhbuoitoi,hotspot1,19.190,-6.990,0);
+						create_hs_back(scene_11!nhadieuhanh,hotspot1,-132.880,11.850,0);
+						create_hs_back(scene_7!congvienvensong,hotspot1,-61.080,10.570,0);
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+	</scene>
+
+	<scene name="scene_5!khuonvien" title="Khuôn Viên" onstart="" thumburl="panos/5!khuonvien.tiles/thumb.jpg" lat="10.80048472" lng="106.79672722" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/5!khuonvien.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/5!khuonvien.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						create_hs_back(scene_10!hoboi,hotspot1,85.040,35.160,0);
+						create_hs_back(scene_3!congvao,hotspot1,-41.450,18.240,0);
+						create_hs_back(scene_6!hoboi,hotspot1,-8.710,37.530,0);
+						
+						create_hs_back(scene_1!toancanhbuoisang,hotspot1,86.400,-4.710,0);
+						create_hs_back(scene_2!toancanhbuoitoi,hotspot1,-18.760,-3.620,0);
+						create_hs_back(scene_11!nhadieuhanh,hotspot1,30.380,25.920,0);
+						
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+	</scene>
+
+	<scene name="scene_6!hoboi" title="Hồ Bơi" onstart="" thumburl="panos/6!hoboi.tiles/thumb.jpg" lat="10.80064667" lng="106.79696417" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat ="81.10" vlookat ="9.07" fovtype="MFOV" fov="140.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/6!hoboi.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/6!hoboi.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						create_hs_back(scene_10!hoboi,hotspot1,112.270,10.610,0);
+						create_hs_back(scene_9!khuonvien,hotspot1,149.550,21.250,0);
+						
+						create_hs_back(scene_3!congvao,hotspot1,-116.520,14.410,0);
+						create_hs_back(scene_4!khuonvien,hotspot1,-17.850,9.980,0);
+						create_hs_back(scene_5!khuonvien,hotspot1,140.440,1.130,0);
+						
+						create_hs_back(scene_1!toancanhbuoisang,hotspot1,66.660,-20.320,0);
+						create_hs_back(scene_2!toancanhbuoitoi,hotspot1,-51.290,-16.560,0);
+						create_hs_back(scene_11!nhadieuhanh,hotspot1,61.750,18.910,0);
+						create_hs_back(scene_7!congvienvensong,hotspot1,264.970,10.550,0);
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+
+	</scene>
+
+	<scene name="scene_7!congvienvensong" title="Công Viên Ven Sông" onstart="" thumburl="panos/7!congvienvensong.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat ="24.91" vlookat ="-0.72" fovtype="MFOV" fov="120.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/7!congvienvensong.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/7!congvienvensong.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						
+						create_hs_back(scene_6!hoboi,hotspot1,17.140,0.630,0);
+						create_hs_back(scene_8!khuonvien,hotspot1,-46.020,1.370,0);
+						
+						create_hs_back(scene_3!congvao,hotspot1,28.840,-10.660,0);
+						create_hs_back(scene_4!khuonvien,hotspot1,-51.090,-14.550,0);
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+	</scene>
+
+	<scene name="scene_8!khuonvien" title="Khuôn Viên" onstart="" thumburl="panos/8!khuonvien.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/8!khuonvien.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/8!khuonvien.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						
+						create_hs_back(scene_6!hoboi,hotspot1,-39.840,-0.330,0);
+						create_hs_back(scene_7!congvienvensong,hotspot1,13.800,-0.230,0);
+						
+						create_hs_back(scene_3!congvao,hotspot1,-0.670,-1.780,0);
+						create_hs_back(scene_4!khuonvien,hotspot1,4.860,-87.770,0);
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+	</scene>
+
+	<scene name="scene_9!khuonvien" title="Khuôn Viên" onstart="" thumburl="panos/9!khuonvien.tile/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat ="-49.37" vlookat ="-0.97" fovtype="MFOV" fov="120.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/9!khuonvien.tile/preview.jpg" />
+
+		<image>
+			<cube url="panos/9!khuonvien.tile/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						
+						create_hs_back(scene_6!hoboi,hotspot1,-167.590,5.390,0);
+						create_hs_back(scene_5!khuonvien,hotspot1,-272.080,-28.560,0);
+						
+						create_hs_back(scene_3!congvao,hotspot1,163.650,0.710,0);
+						create_hs_back(scene_10!hoboi,hotspot1,-30.440,1.520,0);
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+
+	</scene>
+	
+	<scene name="scene_10!hoboi" title="Hồ Bơi" onstart="" thumburl="panos/10!hoboi.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/10!hoboi.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/10!hoboi.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						
+						create_hs_back(scene_12!nhadieuhanh,hotspot1,48.220,4.430,0);
+						create_hs_back(scene_5!khuonvien,hotspot1,-66.830,-15.450,0);
+						create_hs_back(scene_6!hoboi,hotspot1,-17.680,3.000,0);
+						
+						create_hs_back(scene_3!congvao,hotspot1,-25.930,-12.460,0);
+						
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+	</scene>
+
+	<scene name="scene_11!nhadieuhanh" title="Nhà Điều Hành" onstart="" thumburl="panos/11!nhadieuhanh.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/11!nhadieuhanh.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/11!nhadieuhanh.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						
+						 create_hs_back(scene_12!nhadieuhanh,hotspot1,2.070,5.370,0);
+						create_hs_back(scene_4!khuonvien,hotspot1,189.810,-7.220,0);
+						create_hs_back(scene_6!hoboi,hotspot1,133.310,-5.270,0);
+						create_hs_back(scene_10!hoboi,hotspot1,47.240,-1.240,0);
+						
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+	</scene>
+
+	<scene name="scene_12!nhadieuhanh" title="Nhà Điều Hành" onstart="" thumburl="panos/12!nhadieuhanh.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat ="88.04" vlookat ="5.44" fovtype="MFOV" fov="120.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/12!nhadieuhanh.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/12!nhadieuhanh.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						
+						
+						create_hs_back(scene_11!nhadieuhanh,hotspot1,271.670,4.260,0);
+						create_hs_back(scene_10!hoboi,hotspot1,159.430,0.780,0);
+						create_hs_back(scene_6!hoboi,hotspot1,227.300,-5.000,0);
+						
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						"
+						/>
+
+	</scene>
+	
+	<scene name="scene_13!topdown" title="Sơ Đồ Mặt Bằng Dự Án" onstart="" thumburl="panos/13!topdown.tiles/thumb.jpg" lat="10.79966167" lng="106.79691778" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat ="9.64" vlookat ="90.00" fovtype="MFOV" fov="111.23" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/13!topdown.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/13!topdown.tiles/pano_%s.jpg" />
+		</image>
+		<events name=""
+		onloadcomplete="
+						create_hs_back(scene_3!congvao,hotspot1,-3.790,60.000,0);
+						create_hs_back(scene_2!toancanhbuoitoi,hotspot1,25.520,44.760,0);
+						create_hs_back(scene_1!toancanhbuoisang,hotspot1,155.220,32.200,0);
+						
+				
+				
+				
+						
+						
+						
+						
+						"
+						/>
+		
+		
+		<hotspot name="hp12"
+		  	ath="-471.49" atv="7.84"
+		  	style="callout"
+			title="Quận 2"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="120"
+		/>
+		<hotspot name="hp13"
+		  	ath="-464.44" atv="0.63"
+		  	style="callout"
+			title="Quận 1"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="100"
+		/>
+		<hotspot name="hp14"
+		  	ath="-12.51" atv="10.15"
+		  	style="callout"
+			title="Khu Dân Cư Verosa Park"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="100"
+		/>
+		
+		
+		
+
+	<hotspot name="hp2"
+		  	ath="-367.92" atv="35.31"
+		  	style="callout"
+			title="Khu dân cư Lucasta"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+		/>
+
+	<hotspot name="hp3"
+		  	ath="-419.41" atv="24.21"
+		  	style="callout"
+			title="Căn hộ SAFIRA"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="50"
+		/>
+
+	
+	<hotspot name="hp5"
+		  	ath="-401.37" atv="16.16"
+		  	style="callout"
+			title="Vòng Xoay Liên Phường"
+			text_x="0"
+			onclick=""
+			rotate="0"
+			callout_bg_border="1.5"
+			 line_lenght="50"
+		/>
+
+
+<hotspot name="hp8"
+		  	ath="-449.76" atv="53.54"
+		  	style="callout"
+			title="Khu dân cư Mega Ruby"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="50"
+		/>
+<hotspot name="hp9"
+		  	ath="-455.45" atv="33.13"
+		  	style="callout"
+			title="Khu dân cư Mega Residence"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="190"
+		/>
+<hotspot name="hp10"
+		  	ath="-436.30" atv="29.67"
+		  	style="callout"
+			title="Khu dân cư Mega Sapphire"
+			text_x="0"
+			onclick=""
+			rotate="360"
+			callout_bg_border="1.5"
+			 line_lenght="180"
+		/>
+	
+	
+
+	
+		
+	</scene>
+	
+	<textstyle name="VRW_STYLE" background="true" backgroundcolor="0x485C51" backgroundalpha="0.95" border="true" borderwidth="2" bordercolor="0x485C51" roundedge="10" textcolor="0xffffff" padding="5" textalign="center" font="Arial" fontsize="14" edge="cursor" xoffset="0" yoffset="100" />
+
+	
+	
+	
+	
+
+
+
+	
+
+
+</krpano>

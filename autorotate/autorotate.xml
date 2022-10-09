@@ -1,0 +1,30 @@
+<krapano>
+    <include url="%SWFPATH%/plugins/showtext.xml" />
+
+
+
+    <plugin name="autorotate_off"
+		visible="true"
+		keep="true"
+        url="photo/autorotate.png"
+        scale="0.18" align="bottomrcenter" x="25" y="55"
+        onhover="showtext(Tắt tự động xoay)"
+        onover="set(alpha,1.0)" onout="set(alpha,0.7)"
+        onclick="switch(autorotate.enabled);
+        set(plugin[autorotate_off].visible,false);
+        set(plugin[autorotate_on].visible,true)"
+
+        />
+
+<plugin name="autorotate_on"
+		visible="false"
+		keep="true"
+		scale="0.18" align="bottomcenter" x="25" y="55"
+        url="photo/autorotateoff.png"
+        onhover="showtext(Bật tự động xoay)"
+        onover="set(alpha,1.0)" onout="set(alpha,0.7)"
+        onclick="switch(autorotate.enabled);
+        set(plugin[autorotate_on].visible,false);
+        set(plugin[autorotate_off].visible,true)"
+        />
+</krapano>
