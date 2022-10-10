@@ -5,7 +5,9 @@
 	<!-- <include url="hotspot/goku_hotspot.xml" />	 -->
 	<include url="skin/texthotspot.xml" devices="desktop|table"/>
 	<include url="skin/texthotspot_mobile.xml" devices="mobile"/>
-	<include url="%SWFPATH%/plugins/placehotspot/placehotspot.xml"/>
+	<!-- <include url="%SWFPATH%/plugins/placehotspot/placehotspot.xml"/> -->
+	<include url="%SWFPATH%/plugins/placehotspot/core/core.xml" />
+
 	<include url="%SWFPATH%/plugins/imghotspot/imghotspot.xml"/>
 
 
