@@ -2,7 +2,15 @@
 
 	<include url="skin/vtourskin.xml" />
 	<include url="work.xml" />	
-	<include url="hotspot/goku_hotspot.xml" />	
+	<!-- <include url="hotspot/goku_hotspot.xml" />	 -->
+	<include url="skin/texthotspot.xml" devices="desktop|table"/>
+	<include url="skin/texthotspot_mobile.xml" devices="mobile"/>
+	<include url="%SWFPATH%/plugins/placehotspot/placehotspot.xml"/>
+	<include url="%SWFPATH%/plugins/imghotspot/imghotspot.xml"/>
+
+
+	<!-- <include url="%SWFPATH%/plugins/callout.xml"/> -->
+
 
 	<!-- Plugin for hotspot - Begin -->
 	<!-- <include url="%SWFPATH%/module/imghotspot/imghotspot.xml"/> -->
@@ -77,10 +85,11 @@
 	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
 	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
 	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+   
 
 
 	
-	<scene name="scene_1" title="1" onstart="" thumburl="panos/1.tiles/thumb.jpg" lat="10.56612056" lng="107.55806361" heading="0.0">
+	<scene name="scene1" title="Tuy Hòa" onstart="" thumburl="panos/1.tiles/thumb.jpg" lat="10.56612056" lng="107.55806361" heading="0.0">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -92,13 +101,13 @@
 			<cube url="panos/1.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot  name="ic1" style="flag_icon" icon="%FIRSTXML%/icons/park2.png" title="Công viên Jura" onclick="loadscene(scene_2, null, MERGE, BLEND(0.5));" onhover=""  />
+		<hotspot  name="ic1" style="flag_icon" icon="%FIRSTXML%/icons/park2.png" title="Công viên Jura" onclick="loadscene(scene2, null, MERGE, BLEND(0.5));" onhover=""  />
 		
 		<hotspot  name="ic2" style="flag_icon" icon="%FIRSTXML%/icons/hospital2.png" title="Bệnh viện Hạnh Phúc" ath="20" atv="10"   />
-
+		
 		<events name=""
 			onloadcomplete="
-							
+			create_hs_back(scene2,hotspot1,-26.120,20.710,0)
 							"
 			/>
 
@@ -106,7 +115,7 @@
 
 	</scene>
 
-	<scene name="scene_2" title="2" onstart="" thumburl="panos/2.tiles/thumb.jpg" lat="10.56627583" lng="107.55697972" heading="0.0">
+	<scene name="scene2" title="Phú Yên" onstart="" thumburl="panos/2.tiles/thumb.jpg" lat="10.56627583" lng="107.55697972" heading="0.0">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -121,7 +130,7 @@
 		<!-- Hotspot The Classia - Begin -->
 			<events name=""
 			onloadcomplete="
-							create_hs_back(scene_3,hotspot1,-26.120,20.710,0);
+							create_hs_back(scene3,hotspot1,-26.120,20.710,0);
 							"
 			/>
 
@@ -129,7 +138,7 @@
 
 	</scene>
 
-	<scene name="scene_3" title="View 03" onstart="" thumburl="panos/3.tiles/thumb.jpg" lat="10.56495444" lng="107.55688250" heading="0.0">
+	<scene name="scene3" title="Nha Trang" onstart="" thumburl="panos/3.tiles/thumb.jpg" lat="10.56495444" lng="107.55688250" heading="0.0">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -143,7 +152,7 @@
 
 		<events name=""
 			onloadcomplete="
-							create_hs_back(scene_1,hotspot1,-126.120,20.710,0);
+							create_hs_back(scene1,hotspot1,-126.120,20.710,0);
 							"
 			/>
 
